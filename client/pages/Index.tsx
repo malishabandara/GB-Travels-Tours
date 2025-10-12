@@ -6,6 +6,7 @@ import { ArrowRight, CheckCircle2, MapPin, Star } from "lucide-react";
 import { packages } from "@/data/packages";
 import TourCard from "@/components/site/TourCard";
 import { galleryImages } from "@/data/gallery";
+import { heroImages } from "@/data/hero";
 
 export default function Index() {
   const [exampleFromServer, setExampleFromServer] = useState("");
@@ -82,7 +83,7 @@ export default function Index() {
           <div>
             <h2 className="text-2xl md:text-3xl font-extrabold">Popular Packages</h2>
             <p className="mt-2 text-muted-foreground max-w-2xl">
-              Choose from durations that fit your schedule: 1 - 20 days. Cars and vans available.
+              Choose from durations that fit your schedule: 1, 2, 4, 5, 7, 10, 12, 14, 20 days. Cars and vans available.
             </p>
           </div>
         </div>
