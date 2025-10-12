@@ -36,7 +36,7 @@ export default function Index() {
   return (
     <main className="min-h-screen">
       {/* Hero */}
-      <section className="relative min-h-[70vh] md:min-h-[78vh]">
+      <section className="relative min-h-[60vh] md:min-h-[68vh]">
         <div className="absolute inset-0">
           {heroImages.map((img, i) => (
             <img
