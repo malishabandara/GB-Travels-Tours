@@ -12,26 +12,42 @@ export default function TourCard({ p, index }: { p: TourPackage; index: number }
       transition={{ duration: 0.5, delay: index * 0.06 }}
       className="group relative overflow-hidden rounded-xl border border-border/60 bg-card/60 backdrop-blur hover:shadow-[0_0_0_1px_hsl(var(--primary))]"
     >
+      <div className="relative aspect-[4/3] overflow-hidden">
+        <img
+          src={`${p.image}?auto=compress&cs=tinysrgb&w=1200`}
+          alt={p.title}
+          className="h-full w-full object-cover transition duration-700 group-hover:scale-105"
+          loading="lazy"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"/>
+        <div className="absolute top-3 left-3 flex items-center gap-2">
+          <span className="rounded-full bg-black/60 px-2.5 py-1 text-[11px] font-semibold text-white tracking-wider">
+            {p.days} {p.days === 1 ? "Day" : "Days"}
+          </span>
+          <div className="hidden sm:flex items-center gap-2 text-white/90">
+            {p.vehicles.includes("Car") && (
+              <span className="inline-flex items-center gap-1 text-[11px]"><Car className="h-4 w-4 text-primary"/> Car</span>
+            )}
+            {p.vehicles.includes("Van") && (
+              <span className="inline-flex items-center gap-1 text-[11px]"><BusFront className="h-4 w-4 text-primary"/> Van</span>
+            )}
+          </div>
+        </div>
+        <div className="absolute bottom-3 left-3 right-3 flex items-end justify-between">
+          <h3 className="text-white text-lg font-semibold drop-shadow">{p.title}</h3>
+          <span className="rounded-full bg-primary px-3 py-1 text-xs font-semibold text-primary-foreground shadow">From ${p.priceFrom.toFixed(0)}</span>
+        </div>
+      </div>
       <div className="p-5">
-        <div className="flex items-baseline justify-between">
-          <h3 className="text-lg font-semibold">
-            {p.title}
-          </h3>
-          <span className="text-xs tracking-widest uppercase text-primary font-semibold">{p.days} {p.days === 1 ? "Day" : "Days"}</span>
-        </div>
-        <p className="mt-2 text-sm text-muted-foreground min-h-10">{p.description}</p>
-        <div className="mt-4 flex items-center gap-3 text-muted-foreground">
-          {p.vehicles.includes("Car") && (
-            <span className="inline-flex items-center gap-1 text-xs"><Car className="h-4 w-4 text-primary"/> Car</span>
-          )}
-          {p.vehicles.includes("Van") && (
-            <span className="inline-flex items-center gap-1 text-xs"><BusFront className="h-4 w-4 text-primary"/> Van</span>
-          )}
-        </div>
-        <div className="mt-6 flex items-center justify-between">
-          <div>
-            <p className="text-xs text-muted-foreground">From</p>
-            <p className="text-xl font-bold">${p.priceFrom.toFixed(0)}</p>
+        <p className="text-sm text-muted-foreground min-h-10">{p.description}</p>
+        <div className="mt-5 flex items-center justify-between">
+          <div className="flex items-center gap-3 text-muted-foreground sm:hidden">
+            {p.vehicles.includes("Car") && (
+              <span className="inline-flex items-center gap-1 text-xs"><Car className="h-4 w-4 text-primary"/> Car</span>
+            )}
+            {p.vehicles.includes("Van") && (
+              <span className="inline-flex items-center gap-1 text-xs"><BusFront className="h-4 w-4 text-primary"/> Van</span>
+            )}
           </div>
           <Button asChild>
             <a href={`mailto:nikinihunukumbura@gmail.com?subject=${encodeURIComponent(p.title + " Inquiry - GB Travels & Tours")}`}>
