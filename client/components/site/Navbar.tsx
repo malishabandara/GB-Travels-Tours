@@ -33,9 +33,12 @@ export default function Navbar() {
     >
       <div className="container flex h-16 items-center justify-between">
         <Link to="/" className="group inline-flex items-center gap-2">
-          <div className="relative">
-            <Plane className="h-6 w-6 text-primary drop-shadow" />
-          </div>
+          <img
+            src="https://cdn.builder.io/api/v1/image/assets%2F59c2f306d6f4441883078c4e59f5f358%2Ff9220ba392b74ab6b15209877a41afc2?format=webp&width=128"
+            alt="GB Travels & Tours logo"
+            className="h-8 w-8 object-contain drop-shadow"
+            decoding="async"
+          />
           <span className="font-extrabold tracking-tight text-lg">
             <span className="text-primary">GB</span> Travels & Tours
           </span>
