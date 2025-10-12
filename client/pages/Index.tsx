@@ -47,12 +47,12 @@ export default function Index() {
             />
           ))}
         </div>
-        <div className="relative container py-28 md:py-40"><div className="max-w-3xl rounded-xl p-6 md:p-8">
+        <div className="relative container py-28 md:py-40"><div className="max-w-3xl rounded-xl bg-black/25 backdrop-blur-sm p-6 md:p-8 text-white">
           <motion.h1
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="font-extrabold text-4xl md:text-6xl leading-tight"
+            className="font-extrabold text-4xl md:text-6xl leading-tight drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)]"
           >
             GB Travels & Tours
           </motion.h1>
@@ -60,7 +60,7 @@ export default function Index() {
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className="mt-4 max-w-2xl text-lg md:text-xl text-muted-foreground"
+            className="mt-4 max-w-2xl text-lg md:text-xl text-white/90 drop-shadow-[0_2px_6px_rgba(0,0,0,0.5)]"
           >
             From 1-day city escapes to 20-day grand adventures. Ride in comfort
             with cars and vans. Modern, premium, and always effortless.
@@ -80,7 +80,7 @@ export default function Index() {
               <a href="/gallery">View Gallery</a>
             </Button>
           </motion.div>
-          <div className="mt-8 flex flex-wrap items-center gap-4 text-sm text-muted-foreground">
+          <div className="mt-8 flex flex-wrap items-center gap-4 text-sm text-white/85 drop-shadow-[0_2px_6px_rgba(0,0,0,0.4)]">
             <span className="inline-flex items-center gap-2"><CheckCircle2 className="text-primary"/> Licensed guides</span>
             <span className="inline-flex items-center gap-2"><CheckCircle2 className="text-primary"/> Comfortable vehicles</span>
             <span className="inline-flex items-center gap-2"><CheckCircle2 className="text-primary"/> Flexible itineraries</span>
