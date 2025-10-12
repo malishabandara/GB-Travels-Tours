@@ -38,11 +38,14 @@ export default function Index() {
       {/* Hero */}
       <section className="relative min-h-[70vh] md:min-h-[78vh]">
         <div className="absolute inset-0">
-          <img
-            src="https://images.pexels.com/photos/13256066/pexels-photo-13256066.jpeg?auto=compress&cs=tinysrgb&w=2000"
-            alt="Dubai skyline at night"
-            className="h-full w-full object-cover opacity-60"
-          />
+          {heroImages.map((img, i) => (
+            <img
+              key={img.src}
+              src={`${img.src}?auto=compress&cs=tinysrgb&w=2400`}
+              alt={img.alt}
+              className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-[1200ms] ${i === slide ? "opacity-90" : "opacity-0"}`}
+            />
+          ))}
           <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-background" />
         </div>
         <div className="relative container py-28 md:py-40">
