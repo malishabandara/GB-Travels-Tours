@@ -25,6 +25,14 @@ export default function Index() {
     }
   };
 
+  useEffect(() => {
+    const id = setInterval(
+      () => setSlide((i) => (i + 1) % heroImages.length),
+      5000,
+    );
+    return () => clearInterval(id);
+  }, []);
+
   return (
     <main className="min-h-screen">
       {/* Hero */}
