@@ -36,7 +36,7 @@ export default function Index() {
   return (
     <main className="min-h-screen">
       {/* Hero */}
-      <section className="relative min-h-[70vh] md:min-h-[78vh]">
+      <section className="relative min-h-[55vh] md:min-h-[65vh]">
         <div className="absolute inset-0">
           {heroImages.map((img, i) => (
             <img
@@ -47,7 +47,7 @@ export default function Index() {
             />
           ))}
         </div>
-        <div className="relative container py-28 md:py-40">
+        <div className="relative container py-20 md:py-28">
           <div className="max-w-3xl rounded-xl p-6 md:p-8 text-white">
             <motion.h1
               initial={{ opacity: 0, y: 12 }}
@@ -115,8 +115,8 @@ export default function Index() {
               Popular Packages
             </h2>
             <p className="mt-2 text-muted-foreground max-w-2xl">
-              Choose from durations that fit your schedule: 1, 2, 4, 5, 7, 10,
-              12, 14, 20 days. Cars and vans available.
+              Choose from durations that fit your schedule: 1 - 20 days. Cars
+              and vans available.
             </p>
           </div>
         </div>
