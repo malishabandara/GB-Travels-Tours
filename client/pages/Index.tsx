@@ -115,7 +115,8 @@ export default function Index() {
               Popular Packages
             </h2>
             <p className="mt-2 text-muted-foreground max-w-2xl">
-              Choose from durations that fit your schedule: 1 - 20 days. Cars and vans available.
+              Choose from durations that fit your schedule: 1 - 20 days. Cars
+              and vans available.
             </p>
           </div>
         </div>
