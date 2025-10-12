@@ -25,7 +25,7 @@ export default function TourCard({ p, index }: { p: TourPackage; index: number }
             <span className="inline-flex items-center gap-1 text-xs"><Car className="h-4 w-4 text-primary"/> Car</span>
           )}
           {p.vehicles.includes("Van") && (
-            <span className="inline-flex items-center gap-1 text-xs"><Van className="h-4 w-4 text-primary"/> Van</span>
+            <span className="inline-flex items-center gap-1 text-xs"><BusFront className="h-4 w-4 text-primary"/> Van</span>
           )}
         </div>
         <div className="mt-6 flex items-center justify-between">
