@@ -15,7 +15,8 @@ export default function Gallery() {
             Travel Inspirations
           </motion.h1>
           <p className="mt-2 text-muted-foreground max-w-2xl mx-auto">
-            A curated glimpse into journeys we love—city lights, pristine beaches, desert sunsets, and more.
+            A curated glimpse into journeys we love—city lights, pristine
+            beaches, desert sunsets, and more.
           </p>
         </div>
         <div className="mt-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4">

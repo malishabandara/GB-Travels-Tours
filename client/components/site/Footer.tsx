@@ -12,27 +12,55 @@ export default function Footer() {
           </p>
         </div>
         <div>
-          <h4 className="text-sm font-semibold uppercase tracking-wider text-muted-foreground">Quick Links</h4>
+          <h4 className="text-sm font-semibold uppercase tracking-wider text-muted-foreground">
+            Quick Links
+          </h4>
           <ul className="mt-3 space-y-2 text-sm">
-            <li><a className="hover:text-primary" href="/#packages">Packages</a></li>
-            <li><a className="hover:text-primary" href="/gallery">Gallery</a></li>
-            <li><a className="hover:text-primary" href="/#reviews">Reviews</a></li>
+            <li>
+              <a className="hover:text-primary" href="/#packages">
+                Packages
+              </a>
+            </li>
+            <li>
+              <a className="hover:text-primary" href="/gallery">
+                Gallery
+              </a>
+            </li>
+            <li>
+              <a className="hover:text-primary" href="/#reviews">
+                Reviews
+              </a>
+            </li>
           </ul>
         </div>
         <div>
-          <h4 className="text-sm font-semibold uppercase tracking-wider text-muted-foreground">Contact</h4>
+          <h4 className="text-sm font-semibold uppercase tracking-wider text-muted-foreground">
+            Contact
+          </h4>
           <div className="mt-3 space-y-2 text-sm">
-            <a className="flex items-center gap-2 hover:text-primary" href="mailto:nikinihunukumbura@gmail.com"><Mail className="h-4 w-4"/> nikinihunukumbura@gmail.com</a>
+            <a
+              className="flex items-center gap-2 hover:text-primary"
+              href="mailto:nikinihunukumbura@gmail.com"
+            >
+              <Mail className="h-4 w-4" /> nikinihunukumbura@gmail.com
+            </a>
           </div>
           <div className="mt-4 flex items-center gap-3 text-muted-foreground">
-            <a className="hover:text-primary" href="#" aria-label="Facebook"><Facebook className="h-5 w-5"/></a>
-            <a className="hover:text-primary" href="#" aria-label="Instagram"><Instagram className="h-5 w-5"/></a>
+            <a className="hover:text-primary" href="#" aria-label="Facebook">
+              <Facebook className="h-5 w-5" />
+            </a>
+            <a className="hover:text-primary" href="#" aria-label="Instagram">
+              <Instagram className="h-5 w-5" />
+            </a>
           </div>
         </div>
       </div>
       <div className="border-t border-border/60">
         <div className="container py-4 text-xs text-muted-foreground flex items-center justify-between">
-          <p>© {new Date().getFullYear()} GB Travels & Tours. All rights reserved.</p>
+          <p>
+            © {new Date().getFullYear()} GB Travels & Tours. All rights
+            reserved.
+          </p>
           <p>Made with passion for journeys.</p>
         </div>
       </div>
