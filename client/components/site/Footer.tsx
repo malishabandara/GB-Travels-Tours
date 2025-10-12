@@ -42,7 +42,7 @@ export default function Footer() {
               className="flex items-center gap-2 hover:text-primary"
               href="mailto:nikinihunukumbura@gmail.com"
             >
-              <Mail className="h-4 w-4" /> nikinihunukumbura@gmail.com
+              <Mail className="h-4 w-4" /> gbtravels.com
             </a>
           </div>
           <div className="mt-4 flex items-center gap-3 text-muted-foreground">
