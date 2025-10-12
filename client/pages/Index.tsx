@@ -87,6 +87,16 @@ export default function Index() {
             <span className="inline-flex items-center gap-2"><CheckCircle2 className="text-primary"/> Flexible itineraries</span>
           </div>
         </div>
+        <div className="absolute bottom-6 left-1/2 z-10 -translate-x-1/2 flex gap-2">
+          {heroImages.map((_, i) => (
+            <button
+              key={i}
+              aria-label={`Go to slide ${i + 1}`}
+              onClick={() => setSlide(i)}
+              className={`h-2.5 w-2.5 rounded-full transition-all ${i === slide ? "bg-primary scale-110" : "bg-white/40 hover:bg-white/70"}`}
+            />
+          ))}
+        </div>
       </section>
 
       {/* Packages */}
