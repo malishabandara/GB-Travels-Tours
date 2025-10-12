@@ -1,4 +1,4 @@
-import { Car, Van, ArrowRight } from "lucide-react";
+import { Car, BusFront, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import type { TourPackage } from "@/data/packages";
 import { motion } from "framer-motion";
