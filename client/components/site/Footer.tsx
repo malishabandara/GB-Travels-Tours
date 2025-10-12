@@ -23,7 +23,6 @@ export default function Footer() {
           <h4 className="text-sm font-semibold uppercase tracking-wider text-muted-foreground">Contact</h4>
           <div className="mt-3 space-y-2 text-sm">
             <a className="flex items-center gap-2 hover:text-primary" href="mailto:nikinihunukumbura@gmail.com"><Mail className="h-4 w-4"/> nikinihunukumbura@gmail.com</a>
-            <a className="flex items-center gap-2 hover:text-primary" href="tel:+0000000000"><Phone className="h-4 w-4"/> +00 000 000 000</a>
           </div>
           <div className="mt-4 flex items-center gap-3 text-muted-foreground">
             <a className="hover:text-primary" href="#" aria-label="Facebook"><Facebook className="h-5 w-5"/></a>
