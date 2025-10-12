@@ -43,12 +43,11 @@ export default function Index() {
               key={img.src}
               src={`${img.src}?auto=compress&cs=tinysrgb&w=2400`}
               alt={img.alt}
-              className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-[1200ms] ${i === slide ? "opacity-90" : "opacity-0"}`}
+              className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-[1200ms] ${i === slide ? "opacity-100" : "opacity-0"}`}
             />
           ))}
-          <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-background" />
         </div>
-        <div className="relative container py-28 md:py-40">
+        <div className="relative container py-28 md:py-40"><div className="max-w-3xl rounded-xl bg-black/20 backdrop-blur-sm p-6 md:p-8">
           <motion.h1
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
@@ -86,6 +85,7 @@ export default function Index() {
             <span className="inline-flex items-center gap-2"><CheckCircle2 className="text-primary"/> Comfortable vehicles</span>
             <span className="inline-flex items-center gap-2"><CheckCircle2 className="text-primary"/> Flexible itineraries</span>
           </div>
+        </div>
         </div>
         <div className="absolute bottom-6 left-1/2 z-10 -translate-x-1/2 flex gap-2">
           {heroImages.map((_, i) => (
