@@ -10,6 +10,7 @@ import { heroImages } from "@/data/hero";
 
 export default function Index() {
   const [exampleFromServer, setExampleFromServer] = useState("");
+  const [slide, setSlide] = useState(0);
   useEffect(() => {
     fetchDemo();
   }, []);
