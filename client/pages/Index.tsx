@@ -36,7 +36,7 @@ export default function Index() {
   return (
     <main className="min-h-screen">
       {/* Hero */}
-      <section className="relative min-h-[30vh] md:min-h-[38vh]">
+      <section className="relative min-h-[70vh] md:min-h-[78vh]">
         <div className="absolute inset-0">
           {heroImages.map((img, i) => (
             <img
@@ -47,7 +47,7 @@ export default function Index() {
             />
           ))}
         </div>
-        <div className="relative container py-28 md:py-40"><div className="max-w-3xl rounded-xl bg-black/25 backdrop-blur-sm p-6 md:p-8 text-white">
+        <div className="relative container py-28 md:py-40"><div className="max-w-3xl rounded-xl p-6 md:p-8 text-white">
           <motion.h1
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
