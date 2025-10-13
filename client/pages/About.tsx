@@ -1,99 +1,104 @@
+import * as React from "react";
 import { motion } from "framer-motion";
+import { ArrowRight } from "lucide-react";
 
 export default function About() {
   return (
     <main className="min-h-screen">
       <section className="container py-14">
-        <div className="text-center">
+        {/* Hero */}
+        <div className="text-center max-w-3xl mx-auto">
           <motion.h1
-            initial={{ opacity: 0, y: 10 }}
+            initial={{ opacity: 0, y: 8 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            className="text-3xl md:text-4xl font-extrabold"
+            transition={{ duration: 0.45 }}
+            className="text-4xl md:text-5xl font-extrabold leading-tight"
           >
-            About Us
+            Discover places, savor moments
           </motion.h1>
-          <p className="mt-3 text-muted-foreground max-w-2xl mx-auto">
-            GB Travels & Tours is dedicated to creating unforgettable travel
-            experiences. From short city escapes to extended grand tours, our
-            curated itineraries and experienced guides ensure a smooth, safe,
-            and memorable journey.
+          <p className="mt-4 text-lg text-muted-foreground">
+            GB Travels & Tours curates immersive journeys that blend iconic sights with authentic local experiences. We design seamless, safe, and inspiring trips so you can explore with confidence and wonder.
           </p>
+
+          <div className="mt-6 flex items-center justify-center gap-3">
+            <a href="tel:+94720532077" className="inline-flex items-center gap-2 rounded-md bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground">
+              Book Now
+              <ArrowRight className="h-4 w-4" />
+            </a>
+            <a href="/packages" className="inline-flex items-center rounded-md border border-border/60 px-4 py-2 text-sm">
+              View Packages
+            </a>
+          </div>
         </div>
 
-        <div className="mt-10 grid grid-cols-1 lg:grid-cols-3 gap-8">
-          <article className="lg:col-span-2 prose prose-invert max-w-none">
-
-            <p>
-              Founded by passionate travelers, our team blends local knowledge with thoughtful planning to deliver journeys that linger long after the trip ends. Whether you seek a quick city escape or a multi-day expedition, we handle the logistics so you can travel freely and focus on discovery.
-            </p>
-
-            <div className="mt-6 grid grid-cols-2 gap-3">
-              <img
-                src="https://images.pexels.com/photos/2533092/pexels-photo-2533092.jpeg?auto=compress&cs=tinysrgb&w=1000"
-                alt="Road trip van"
-                className="rounded-lg w-full h-40 object-cover"
-              />
-              <img
-                src="https://images.pexels.com/photos/20179680/pexels-photo-20179680.jpeg?auto=compress&cs=tinysrgb&w=1000"
-                alt="Safari vehicle"
-                className="rounded-lg w-full h-40 object-cover"
-              />
-            </div>
-
-            <blockquote className="mt-6 border-l-4 border-primary pl-4 italic text-muted-foreground">
-              "Travel is the best teacher—every journey changes you. We make sure it changes you for the better."
-            </blockquote>
-
-            <h3 className="mt-8 text-xl font-semibold">Our Values</h3>
-            <div className="mt-4 grid sm:grid-cols-2 gap-4">
-              <div className="rounded-lg border border-border/60 bg-card/40 p-4">
-                <h4 className="font-semibold">Local Expertise</h4>
-                <p className="mt-2 text-sm text-muted-foreground">We partner with local guides and communities to create genuine experiences.</p>
+        {/* Magazine content */}
+        <div className="mt-12 grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
+          <div className="lg:col-span-2 space-y-6">
+            <div className="rounded-xl overflow-hidden shadow-lg">
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-1">
+                <img src="https://images.pexels.com/photos/13256066/pexels-photo-13256066.jpeg?auto=compress&cs=tinysrgb&w=800" alt="city" className="w-full h-44 object-cover" />
+                <img src="https://images.pexels.com/photos/3601425/pexels-photo-3601425.jpeg?auto=compress&cs=tinysrgb&w=800" alt="beach" className="w-full h-44 object-cover" />
+                <img src="https://images.pexels.com/photos/20179680/pexels-photo-20179680.jpeg?auto=compress&cs=tinysrgb&w=800" alt="safari" className="w-full h-44 object-cover" />
+                <img src="https://images.pexels.com/photos/34239912/pexels-photo-34239912.jpeg?auto=compress&cs=tinysrgb&w=800" alt="desert" className="w-full h-44 object-cover" />
               </div>
-              <div className="rounded-lg border border-border/60 bg-card/40 p-4">
-                <h4 className="font-semibold">Comfort & Safety</h4>
-                <p className="mt-2 text-sm text-muted-foreground">Modern vehicles, vetted accommodations, and clear itineraries for peace of mind.</p>
-              </div>
-            </div>
-          </article>
 
-          <aside className="lg:col-span-1 space-y-6">
-            <div className="rounded-lg overflow-hidden border border-border/60 bg-card/40 p-4">
-              <h4 className="font-semibold">Editorial Picks</h4>
-              <div className="mt-4 space-y-3">
-                <div className="flex items-center gap-3">
-                  <img src="https://images.pexels.com/photos/3601425/pexels-photo-3601425.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Beach" className="w-20 h-12 object-cover rounded-md" />
-                  <div>
-                    <p className="text-sm font-medium">Coastal Retreats</p>
-                    <p className="text-xs text-muted-foreground">Short escapes to pristine beaches.</p>
+              <div className="p-6 bg-card/60">
+                <h2 className="text-2xl font-semibold">Our Story</h2>
+                <p className="mt-3 text-muted-foreground">
+                  Born from a love of discovery, GB Travels & Tours began as a small team of explorers who wanted better travel — more authentic, more thoughtful, and more human. Over the years we've grown while keeping curiosity at our core.
+                </p>
+
+                <div className="mt-4 grid sm:grid-cols-2 gap-4">
+                  <div className="rounded-md bg-background/60 p-4">
+                    <h4 className="font-semibold">Tailored Experiences</h4>
+                    <p className="mt-1 text-sm text-muted-foreground">Custom itineraries to match your pace and interests.</p>
                   </div>
-                </div>
-
-                <div className="flex items-center gap-3">
-                  <img src="https://images.pexels.com/photos/13256066/pexels-photo-13256066.jpeg?auto=compress&cs=tinysrgb&w=400" alt="City" className="w-20 h-12 object-cover rounded-md" />
-                  <div>
-                    <p className="text-sm font-medium">City Highlights</p>
-                    <p className="text-xs text-muted-foreground">Curated urban experiences and cultural tours.</p>
+                  <div className="rounded-md bg-background/60 p-4">
+                    <h4 className="font-semibold">Trusted Partners</h4>
+                    <p className="mt-1 text-sm text-muted-foreground">Vetted guides and reliable accommodations across all destinations.</p>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="rounded-lg border border-border/60 bg-card/40 p-4">
-              <h4 className="font-semibold">Meet the Team</h4>
-              <div className="mt-4 flex items-center gap-3">
-                <img src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=100" alt="Team member" className="w-12 h-12 rounded-full object-cover" />
-                <div>
-                  <p className="text-sm font-medium">Nikhil H.</p>
-                  <p className="text-xs text-muted-foreground">Founder & Lead Guide</p>
-                </div>
+            <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div className="rounded-lg border border-border/60 bg-card/40 p-5">
+                <h3 className="text-xl font-semibold">Sustainability</h3>
+                <p className="mt-2 text-sm text-muted-foreground">We support local communities, reduce impact, and encourage responsible tourism.</p>
+              </div>
+
+              <div className="rounded-lg border border-border/60 bg-card/40 p-5">
+                <h3 className="text-xl font-semibold">Safety & Comfort</h3>
+                <p className="mt-2 text-sm text-muted-foreground">Modern vehicles, trained guides, health-conscious partners, and clear safety protocols.</p>
+              </div>
+            </div>
+          </div>
+
+          <aside className="space-y-6">
+            <div className="rounded-lg border border-border/60 bg-card/40 p-5">
+              <h4 className="font-semibold">Quick Facts</h4>
+              <ul className="mt-3 space-y-2 text-sm text-muted-foreground">
+                <li><strong>10+</strong> years delivering trips</li>
+                <li><strong>50+</strong> curated itineraries</li>
+                <li><strong>1000+</strong> happy travelers</li>
+              </ul>
+            </div>
+
+            <div className="rounded-lg overflow-hidden border border-border/60">
+              <img src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=800" alt="team" className="w-full h-40 object-cover" />
+              <div className="p-4 bg-card/40">
+                <h4 className="font-semibold">Meet the Team</h4>
+                <p className="mt-2 text-sm text-muted-foreground">Our local guides are experienced storytellers and safety-first professionals.</p>
               </div>
             </div>
 
             <div className="rounded-lg border border-border/60 bg-card/40 p-4">
-              <h4 className="font-semibold">Sustainability</h4>
-              <p className="mt-2 text-sm text-muted-foreground">We support local projects and minimize impact through thoughtful operations.</p>
+              <h4 className="font-semibold">Newsletter</h4>
+              <p className="mt-2 text-xs text-muted-foreground">Sign up for travel tips and exclusive offers.</p>
+              <form className="mt-3 flex gap-2">
+                <input className="flex-1 rounded-md border border-border/40 bg-background px-3 py-2 text-sm" placeholder="Email address" />
+                <button className="rounded-md bg-primary px-3 py-2 text-sm font-semibold text-primary-foreground">Subscribe</button>
+              </form>
             </div>
           </aside>
         </div>
