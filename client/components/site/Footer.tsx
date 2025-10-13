@@ -74,8 +74,7 @@ export default function Footer() {
       <div className="border-t border-border/60">
         <div className="container py-4 text-xs text-muted-foreground flex items-center justify-between">
           <p>
-            © {new Date().getFullYear()} GB Travels & Tours. All rights
-            reserved.
+            © {new Date().getFullYear()} NextGen Web Works | +94 78 723 9394
           </p>
           <p>Made with passion for journeys.</p>
         </div>
