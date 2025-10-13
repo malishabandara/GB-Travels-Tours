@@ -121,9 +121,14 @@ export default function Index() {
           </div>
         </div>
         <div className="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
-          {packages.map((p, i) => (
+          {packages.slice(0, 6).map((p, i) => (
             <TourCard key={p.id} p={p} index={i} />
           ))}
+        </div>
+        <div className="mt-6 text-center">
+          <Button asChild>
+            <a href="/packages">View More Packages</a>
+          </Button>
         </div>
       </section>
 
