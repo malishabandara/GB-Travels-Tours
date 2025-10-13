@@ -7,7 +7,7 @@ export default function Packages() {
     <main className="min-h-screen">
       <section className="container py-14">
         <div className="flex items-end justify-between gap-4">
-          <div>
+          <div className="text-center">
             <motion.h1
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
