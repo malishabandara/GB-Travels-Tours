@@ -33,7 +33,7 @@ export default function Contact() {
             <p className="mt-2 text-sm text-muted-foreground">
               Email: <a href="mailto:nikinihunukumbura@gmail.com" className="text-primary">nikinihunukumbura@gmail.com</a>
             </p>
-            <p className="mt-2 text-sm text-muted-foreground">Phone: +94 77 123 4567</p>
+            <p className="mt-2 text-sm text-muted-foreground">Phone: <a href="tel:+94720532077" className="text-primary">+94 72 053 2077</a></p>
             <p className="mt-4 text-sm text-muted-foreground">
               Or send us a message and we'll respond as soon as possible.
             </p>
