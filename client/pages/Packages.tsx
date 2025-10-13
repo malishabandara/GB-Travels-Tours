@@ -6,16 +6,14 @@ export default function Packages() {
   return (
     <main className="min-h-screen">
       <section className="container py-14 relative">
-        <div className="absolute inset-0 -z-10">
+        <div className="relative overflow-hidden rounded-xl">
           <img
             src="https://images.pexels.com/photos/34239912/pexels-photo-34239912.jpeg?auto=compress&cs=tinysrgb&w=1800"
             alt="Desert dunes"
-            className="h-full w-full object-cover opacity-80 pointer-events-none"
+            className="absolute inset-0 h-full w-full object-cover opacity-80 pointer-events-none"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-black/60 to-transparent" />
-        </div>
-
-        <div className="text-center">
+          <div className="relative z-10 text-center">
           <div>
             <motion.h1
               initial={{ opacity: 0, y: 10 }}
@@ -30,6 +28,7 @@ export default function Packages() {
               extended grand tours.
             </p>
           </div>
+        </div>
         </div>
 
         <div className="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
