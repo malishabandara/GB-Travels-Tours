@@ -17,7 +17,12 @@ export default function Footer() {
           </h4>
           <ul className="mt-3 space-y-2 text-sm">
             <li>
-              <a className="hover:text-primary" href="/#packages">
+              <a className="hover:text-primary" href="/">
+                Home
+              </a>
+            </li>
+            <li>
+              <a className="hover:text-primary" href="/packages">
                 Packages
               </a>
             </li>
@@ -27,8 +32,13 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a className="hover:text-primary" href="/#reviews">
-                Reviews
+              <a className="hover:text-primary" href="/about">
+                About
+              </a>
+            </li>
+            <li>
+              <a className="hover:text-primary" href="/contact">
+                Contact
               </a>
             </li>
           </ul>
@@ -44,6 +54,12 @@ export default function Footer() {
             >
               <Mail className="h-4 w-4" /> gbtravels.com
             </a>
+            <a
+              className="flex items-center gap-2 hover:text-primary"
+              href="tel:+94720532077"
+            >
+              <Phone className="h-4 w-4" /> +94 72 053 2077
+            </a>
           </div>
           <div className="mt-4 flex items-center gap-3 text-muted-foreground">
             <a className="hover:text-primary" href="#" aria-label="Facebook">
@@ -58,8 +74,7 @@ export default function Footer() {
       <div className="border-t border-border/60">
         <div className="container py-4 text-xs text-muted-foreground flex items-center justify-between">
           <p>
-            © {new Date().getFullYear()} GB Travels & Tours. All rights
-            reserved.
+            © {new Date().getFullYear()} NextGen Web Works | +94 78 723 9394
           </p>
           <p>Made with passion for journeys.</p>
         </div>

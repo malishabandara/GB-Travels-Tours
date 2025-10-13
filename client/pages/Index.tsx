@@ -121,9 +121,14 @@ export default function Index() {
           </div>
         </div>
         <div className="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
-          {packages.map((p, i) => (
+          {packages.slice(0, 6).map((p, i) => (
             <TourCard key={p.id} p={p} index={i} />
           ))}
+        </div>
+        <div className="mt-6 text-center">
+          <Button asChild>
+            <a href="/packages">View More Packages</a>
+          </Button>
         </div>
       </section>
 
@@ -246,9 +251,7 @@ export default function Index() {
               </p>
             </div>
             <Button asChild size="lg">
-              <a href="mailto:nikinihunukumbura@gmail.com?subject=Plan%20My%20Trip%20-%20GB%20Travels%20%26%20Tours">
-                Get a Quote
-              </a>
+              <a href="tel:+94720532077">Get a Quote</a>
             </Button>
           </div>
         </div>
