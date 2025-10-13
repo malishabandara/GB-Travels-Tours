@@ -54,6 +54,12 @@ export default function Footer() {
             >
               <Mail className="h-4 w-4" /> gbtravels.com
             </a>
+            <a
+              className="flex items-center gap-2 hover:text-primary"
+              href="tel:+94720532077"
+            >
+              <Phone className="h-4 w-4" /> +94 72 053 2077
+            </a>
           </div>
           <div className="mt-4 flex items-center gap-3 text-muted-foreground">
             <a className="hover:text-primary" href="#" aria-label="Facebook">
