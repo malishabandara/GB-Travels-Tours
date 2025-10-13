@@ -23,9 +23,6 @@ export default function About() {
 
         <div className="mt-10 grid grid-cols-1 lg:grid-cols-3 gap-8">
           <article className="lg:col-span-2 prose prose-invert max-w-none">
-            <p className="text-lg md:text-xl text-muted-foreground">
-              At GB Travels & Tours we believe travel transforms perspective. From hidden coastal paths to vibrant city streets, we craft experiences that connect you with people, place, and story. Our curated packages balance iconic sights with authentic local moments — designed to be seamless, soulful, and sustainable.
-            </p>
 
             <p>
               Founded by passionate travelers, our team blends local knowledge with thoughtful planning to deliver journeys that linger long after the trip ends. Whether you seek a quick city escape or a multi-day expedition, we handle the logistics so you can travel freely and focus on discovery.
