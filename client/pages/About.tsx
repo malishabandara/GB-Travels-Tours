@@ -4,16 +4,14 @@ export default function About() {
   return (
     <main className="min-h-screen">
       <section className="container py-14 relative">
-        <div className="absolute inset-0 -z-10">
+        <div className="relative overflow-hidden rounded-xl">
           <img
             src="https://images.pexels.com/photos/3601425/pexels-photo-3601425.jpeg?auto=compress&cs=tinysrgb&w=1800"
             alt="Tropical beach"
-            className="h-full w-full object-cover opacity-80 pointer-events-none"
+            className="absolute inset-0 h-full w-full object-cover opacity-80 pointer-events-none"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-black/60 to-transparent" />
-        </div>
-
-        <div className="text-center">
+          <div className="relative z-10 text-center">
           <motion.h1
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
@@ -28,6 +26,7 @@ export default function About() {
             curated itineraries and experienced guides ensure a smooth, safe,
             and memorable journey.
           </p>
+        </div>
         </div>
 
         <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-6">
