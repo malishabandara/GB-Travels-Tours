@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { motion } from "framer-motion";
 import { packages } from "@/data/packages";
 import TourCard from "@/components/site/TourCard";
 
