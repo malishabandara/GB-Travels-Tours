@@ -189,24 +189,31 @@ export default function Index() {
         <div className="mt-10 grid md:grid-cols-3 gap-5">
           {[
             {
-              name: "Ayesha K.",
+              name: "david f",
               content:
-                "We booked the 7-day package. Everything was smooth and perfectly timed!",
-              location: "Colombo",
+                "Wonderful route through Sri Lanka thanks to GB Tours & Travel and its responsible (Shaggy) who helped us to set up the trip and provided us with exquisite care throughout, taking care of us and dedicated 100% on our travel days. An endearing, cheerful person with all the professionalism one expects when hiring a Guide/Driver Service. Also your driver, Shan, excellent person and who took us everywhere safely and pleasantly. Without a doubt GB Tours&Travel and Shaggy made a difference to make this trip an indelible memory for all of us.",
+              location: "England",
               rating: 5,
             },
             {
-              name: "Michael R.",
+              name: "George Wickens",
               content:
-                "Professional driver, clean van, and amazing itinerary across the highlands.",
+                "Our trip was very enjoyable, we visited Galle, stilt fisherman, madu river safari and the turtle hatchery. All of it was fun, and made even better by our tour guide Supun (pictured in white) who went above and beyond to make our trip special. Along with our guide on the safari who was very good.",
               location: "London",
               rating: 5,
             },
             {
-              name: "Sanjay P.",
+              name: "Nicola C",
               content:
-                "Perfect 2-day city tour. Great value and comfort. Highly recommend!",
-              location: "Mumbai",
+                "Supun and his friend Sachin came to pick me up in Colombo and together we visited the south of Sri Lanka plus Yala Park. I don’t have enough vocabulary to explain the amazing experience I had! I couldn’t have asked for more honestly! If you want to visit the island, Supun is definitely your man! Highly recommended",
+              location: "German",
+              rating: 5,
+            },
+            {
+              name: "Marc l",
+              content:
+                "Unforgettable experience with a company of ten, very friendly, attentive, and always with a smile. GB tours & travel recommended 100% alongside Shaggy, a perfect guide.",
+              location: "Span",
               rating: 5,
             },
           ].map((r, i) => (
