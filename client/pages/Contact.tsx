@@ -23,7 +23,16 @@ export default function Contact() {
 
   return (
     <main className="min-h-screen">
-      <section className="container py-14">
+      <section className="container py-14 relative">
+        <div className="absolute inset-0 -z-10">
+          <img
+            src="https://images.pexels.com/photos/15794381/pexels-photo-15794381.jpeg?auto=compress&cs=tinysrgb&w=2000"
+            alt="Northern lights"
+            className="w-full h-full object-cover opacity-30"
+          />
+          <div className="absolute inset-0 bg-black/40" />
+        </div>
+
         <div className="text-center">
           <motion.h1
             initial={{ opacity: 0, y: 10 }}
