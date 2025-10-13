@@ -43,13 +43,10 @@ export default function TourCard({
             )}
           </div>
         </div>
-        <div className="absolute bottom-3 left-3 right-3 flex items-end justify-between">
+        <div className="absolute bottom-3 left-3 right-3 flex items-end justify-start">
           <h3 className="text-white text-lg font-semibold drop-shadow">
             {p.title}
           </h3>
-          <span className="rounded-full bg-primary px-3 py-1 text-xs font-semibold text-primary-foreground shadow">
-            From ${p.priceFrom.toFixed(0)}
-          </span>
         </div>
       </div>
       <div className="p-5">
