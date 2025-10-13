@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { packages } from "@/data/packages";
 import TourCard from "@/components/site/TourCard";
 
@@ -6,7 +7,7 @@ export default function Packages() {
   return (
     <main className="min-h-screen">
       <section className="container py-14">
-        <div className="flex items-end justify-between gap-4 text-center">
+        <div className="text-center">
           <div>
             <motion.h1
               initial={{ opacity: 0, y: 10 }}
@@ -16,7 +17,7 @@ export default function Packages() {
             >
               Packages
             </motion.h1>
-            <p className="mt-2 text-muted-foreground max-w-2xl">
+            <p className="mt-2 text-muted-foreground max-w-2xl mx-auto">
               Choose from curated packages ranging from quick getaways to
               extended grand tours.
             </p>
