@@ -13,12 +13,11 @@ const CATEGORIES: GalleryCategory[] = [
 ];
 
 export default function Gallery() {
-  const [category, setCategory] = React.useState<"All" | GalleryCategory>(
-    "All",
+  const [category, setCategory] = React.useState<GalleryCategory>(
+    CATEGORIES[0],
   );
 
   const filtered = React.useMemo(() => {
-    if (category === "All") return galleryImages;
     return galleryImages.filter((img) => img.category === category);
   }, [category]);
 
@@ -43,13 +42,11 @@ export default function Gallery() {
         <div className="mt-8 flex justify-center">
           <Tabs
             value={category}
-            onValueChange={(v) => setCategory(v as typeof category)}
-            defaultValue="All"
+            onValueChange={(v) => setCategory(v as GalleryCategory)}
             className="w-full"
           >
             <div className="flex justify-center">
               <TabsList className="flex flex-wrap gap-2">
-                <TabsTrigger value="All">All</TabsTrigger>
                 {CATEGORIES.map((c) => (
                   <TabsTrigger key={c} value={c}>
                     {c}
