@@ -1,4 +1,47 @@
-import { Facebook, Instagram, Mail, Phone } from "lucide-react";
+import { Facebook, Mail, Phone } from "lucide-react";
+
+function TripadvisorIcon({ className }: { className?: string }) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      aria-hidden="true"
+      focusable="false"
+    >
+      <title>Tripadvisor</title>
+      <circle
+        cx="7.5"
+        cy="9.5"
+        r="2.5"
+        stroke="currentColor"
+        strokeWidth="1.2"
+      />
+      <circle
+        cx="16.5"
+        cy="9.5"
+        r="2.5"
+        stroke="currentColor"
+        strokeWidth="1.2"
+      />
+      <path
+        d="M4 15c1.5 1.5 3.5 2.5 6 2.5s4.5-1 6-2.5"
+        stroke="currentColor"
+        strokeWidth="1.2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M9 6.5c0 1 1 2 3 2s3-1 3-2"
+        stroke="currentColor"
+        strokeWidth="1.2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
 
 export default function Footer() {
   return (
@@ -65,8 +108,8 @@ export default function Footer() {
             <a className="hover:text-primary" href="#" aria-label="Facebook">
               <Facebook className="h-5 w-5" />
             </a>
-            <a className="hover:text-primary" href="#" aria-label="Instagram">
-              <Instagram className="h-5 w-5" />
+            <a className="hover:text-primary" href="#" aria-label="Tripadvisor">
+              <TripadvisorIcon className="h-5 w-5" />
             </a>
           </div>
         </div>
