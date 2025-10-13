@@ -84,8 +84,8 @@ export default function Footer() {
             <a className="hover:text-primary" href="#" aria-label="Facebook">
               <Facebook className="h-5 w-5" />
             </a>
-            <a className="hover:text-primary" href="#" aria-label="Instagram">
-              <Instagram className="h-5 w-5" />
+            <a className="hover:text-primary" href="#" aria-label="Tripadvisor">
+              <TripadvisorIcon className="h-5 w-5" />
             </a>
           </div>
         </div>
