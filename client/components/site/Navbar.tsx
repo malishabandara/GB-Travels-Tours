@@ -1,6 +1,12 @@
 import { Link, useLocation } from "react-router-dom";
 import { Menu, Phone } from "lucide-react";
-import { Sheet, SheetContent, SheetTrigger, SheetClose, SheetTitle } from "@/components/ui/sheet";
+import {
+  Sheet,
+  SheetContent,
+  SheetTrigger,
+  SheetClose,
+  SheetTitle,
+} from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
 import { useEffect, useState } from "react";
 
@@ -59,7 +65,12 @@ export default function Navbar() {
           </Button>
           <Sheet>
             <SheetTrigger asChild>
-              <Button variant="secondary" size="icon" className="md:hidden" aria-label="Open menu">
+              <Button
+                variant="secondary"
+                size="icon"
+                className="md:hidden"
+                aria-label="Open menu"
+              >
                 <Menu className="h-4 w-4" />
               </Button>
             </SheetTrigger>
