@@ -8,7 +8,7 @@ export const heroImages = [
     alt: "Aerial view of tropical beach and turquoise water",
   },
   {
-    src: "./tour/5.jpg",
+    src: "./rafting/2.jpg",
     alt: "Golden desert dunes with travelers",
   },
   {

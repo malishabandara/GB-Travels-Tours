@@ -13,15 +13,15 @@ export interface TourPackage {
 const basePricePerDay = 80; // simple pricing logic
 
 const images = [
-  "https://images.pexels.com/photos/3601425/pexels-photo-3601425.jpeg",
-  "https://images.pexels.com/photos/13256066/pexels-photo-13256066.jpeg",
-  "https://images.pexels.com/photos/2533092/pexels-photo-2533092.jpeg",
-  "https://images.pexels.com/photos/34239912/pexels-photo-34239912.jpeg",
-  "https://images.pexels.com/photos/20179680/pexels-photo-20179680.jpeg",
-  "https://images.pexels.com/photos/15794381/pexels-photo-15794381.jpeg",
-  "https://images.pexels.com/photos/15488423/pexels-photo-15488423.jpeg",
-  "https://images.pexels.com/photos/8844224/pexels-photo-8844224.jpeg",
-  "https://images.pexels.com/photos/13256066/pexels-photo-13256066.jpeg",
+  "./Airport/3.jpg",
+  "./boat/1.jpg",
+  "./rafting/6.jpg",
+  "./rafting/4.jpg",
+  "./safari/4.jpg",
+  "./tour/2.jpg",
+  "./tour/5.jpg",
+  "./tour/15.jpg",
+  "./tour/17.jpg",
 ];
 
 export const packages: TourPackage[] = [1, 2, 4, 5, 7, 10, 12, 14, 20].map(
