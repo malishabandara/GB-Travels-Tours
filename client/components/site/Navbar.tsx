@@ -52,7 +52,7 @@ export default function Navbar() {
         </nav>
         <div className="flex items-center gap-2">
           <Button asChild size="sm" className="hidden sm:inline-flex">
-            <a href="mailto:nikinihunukumbura@gmail.com?subject=Booking%20Inquiry%20-%20GB%20Travels%20%26%20Tours">
+            <a href="tel:+94720532077">
               <Phone className="mr-2 h-4 w-4" /> Book Now
             </a>
           </Button>
