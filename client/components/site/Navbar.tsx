@@ -45,19 +45,10 @@ export default function Navbar() {
         </Link>
         <nav className="hidden md:flex items-center gap-8">
           <NavLink to="/" label="Home" />
-          <a
-            href="/#packages"
-            className="text-sm font-medium text-foreground/80 hover:text-primary"
-          >
-            Packages
-          </a>
+          <NavLink to="/packages" label="Packages" />
           <NavLink to="/gallery" label="Gallery" />
-          <a
-            href="/#reviews"
-            className="text-sm font-medium text-foreground/80 hover:text-primary"
-          >
-            Reviews
-          </a>
+          <NavLink to="/about" label="About" />
+          <NavLink to="/contact" label="Contact" />
         </nav>
         <div className="flex items-center gap-2">
           <Button asChild size="sm" className="hidden sm:inline-flex">

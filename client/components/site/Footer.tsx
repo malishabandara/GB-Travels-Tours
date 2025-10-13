@@ -17,7 +17,12 @@ export default function Footer() {
           </h4>
           <ul className="mt-3 space-y-2 text-sm">
             <li>
-              <a className="hover:text-primary" href="/#packages">
+              <a className="hover:text-primary" href="/">
+                Home
+              </a>
+            </li>
+            <li>
+              <a className="hover:text-primary" href="/packages">
                 Packages
               </a>
             </li>
@@ -27,8 +32,13 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a className="hover:text-primary" href="/#reviews">
-                Reviews
+              <a className="hover:text-primary" href="/about">
+                About
+              </a>
+            </li>
+            <li>
+              <a className="hover:text-primary" href="/contact">
+                Contact
               </a>
             </li>
           </ul>
