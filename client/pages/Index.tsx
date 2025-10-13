@@ -251,9 +251,7 @@ export default function Index() {
               </p>
             </div>
             <Button asChild size="lg">
-              <a href="tel:+94720532077">
-                Get a Quote
-              </a>
+              <a href="tel:+94720532077">Get a Quote</a>
             </Button>
           </div>
         </div>

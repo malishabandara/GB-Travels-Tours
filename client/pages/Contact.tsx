@@ -85,15 +85,24 @@ export default function Contact() {
             />
 
             <div className="flex items-center gap-3">
-              <button type="submit" className="inline-flex items-center rounded-md bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground">
+              <button
+                type="submit"
+                className="inline-flex items-center rounded-md bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground"
+              >
                 Send via WhatsApp
               </button>
-              <a href="tel:+94720532077" className="inline-flex items-center rounded-md border border-border/60 px-4 py-2 text-sm">
+              <a
+                href="tel:+94720532077"
+                className="inline-flex items-center rounded-md border border-border/60 px-4 py-2 text-sm"
+              >
                 Call +94 72 053 2077
               </a>
             </div>
 
-            <p className="text-xs text-muted-foreground">By sending, you'll be redirected to WhatsApp to complete the message send.</p>
+            <p className="text-xs text-muted-foreground">
+              By sending, you'll be redirected to WhatsApp to complete the
+              message send.
+            </p>
           </div>
         </form>
       </section>
