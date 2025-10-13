@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 export default function About() {
   return (
     <main className="min-h-screen">
-      <section className="container py-14">
+      <section className="container py-14 relative">
         <div className="text-center">
           <motion.h1
             initial={{ opacity: 0, y: 10 }}
