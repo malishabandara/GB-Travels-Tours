@@ -13,14 +13,14 @@ export interface TourPackage {
 const basePricePerDay = 80; // simple pricing logic
 
 const images = [
-  "./Airport/3.jpg",
+  "./tour/5.jpg",
+  "./tour/15.jpg",
+  "./tour/13.jpg",
   "./boat/1.jpg",
   "./rafting/6.jpg",
   "./rafting/4.jpg",
   "./safari/4.jpg",
   "./tour/2.jpg",
-  "./tour/5.jpg",
-  "./tour/15.jpg",
   "./tour/17.jpg",
 ];
 
