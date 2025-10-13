@@ -246,7 +246,7 @@ export default function Index() {
               </p>
             </div>
             <Button asChild size="lg">
-              <a href="mailto:nikinihunukumbura@gmail.com?subject=Plan%20My%20Trip%20-%20GB%20Travels%20%26%20Tours">
+              <a href="tel:+94720532077">
                 Get a Quote
               </a>
             </Button>
