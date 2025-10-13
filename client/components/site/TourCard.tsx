@@ -70,9 +70,7 @@ export default function TourCard({
             )}
           </div>
           <Button asChild>
-            <a
-              href={`mailto:nikinihunukumbura@gmail.com?subject=${encodeURIComponent(p.title + " Inquiry - GB Travels & Tours")}`}
-            >
+            <a href="tel:+94720532077">
               Book Now <ArrowRight className="ml-2 h-4 w-4" />
             </a>
           </Button>
