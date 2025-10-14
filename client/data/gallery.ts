@@ -256,6 +256,110 @@ export const galleryImages: GalleryImage[] = [
     src: "./tour/47.jpg",
     alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
     category: "Tours",
+  },{
+    src: "./tour/48.jpg",
+    alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
+    category: "Tours",
+  },{
+    src: "./tour/49.jpg",
+    alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
+    category: "Tours",
+  },{
+    src: "./tour/50.jpg",
+    alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
+    category: "Tours",
+  },{
+    src: "./tour/51.jpg",
+    alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
+    category: "Tours",
+  },{
+    src: "./tour/52.jpg",
+    alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
+    category: "Tours",
+  },{
+    src: "./tour/53.jpg",
+    alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
+    category: "Tours",
+  },{
+    src: "./tour/54.jpg",
+    alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
+    category: "Tours",
+  },{
+    src: "./tour/55.jpg",
+    alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
+    category: "Tours",
+  },{
+    src: "./tour/56.jpg",
+    alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
+    category: "Tours",
+  },{
+    src: "./tour/57.jpg",
+    alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
+    category: "Tours",
+  },{
+    src: "./tour/58.jpg",
+    alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
+    category: "Tours",
+  },{
+    src: "./tour/59.jpg",
+    alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
+    category: "Tours",
+  },{
+    src: "./tour/60.jpg",
+    alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
+    category: "Tours",
+  },{
+    src: "./tour/61.jpg",
+    alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
+    category: "Tours",
+  },{
+    src: "./tour/62.jpg",
+    alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
+    category: "Tours",
+  },{
+    src: "./tour/63.jpg",
+    alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
+    category: "Tours",
+  },{
+    src: "./tour/64.jpg",
+    alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
+    category: "Tours",
+  },{
+    src: "./tour/65.jpg",
+    alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
+    category: "Tours",
+  },{
+    src: "./tour/66.jpg",
+    alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
+    category: "Tours",
+  },{
+    src: "./tour/67.jpg",
+    alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
+    category: "Tours",
+  },{
+    src: "./tour/68.jpg",
+    alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
+    category: "Tours",
+  },{
+    src: "./tour/69.jpg",
+    alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
+    category: "Tours",
+  },{
+    src: "./tour/70.jpg",
+    alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
+    category: "Tours",
+  },{
+    src: "./tour/71.jpg",
+    alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
+    category: "Tours",
+  },{
+    src: "./tour/72.jpg",
+    alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
+    category: "Tours",
+  },{
+    src: "./tour/73.jpg",
+    alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
+    category: "Tours",
   },
   {
     src: "./safari/3.jpg",
@@ -373,6 +477,51 @@ export const galleryImages: GalleryImage[] = [
     category: "Safari",
   },
   {
+    src: "./safari/26.jpg",
+    alt: "A safari vehicle parked in the vast African savannah during sunset, ideal for adventure and travel themes.",
+    category: "Safari",
+  },{
+    src: "./safari/27.jpg",
+    alt: "A safari vehicle parked in the vast African savannah during sunset, ideal for adventure and travel themes.",
+    category: "Safari",
+  },{
+    src: "./safari/28.jpg",
+    alt: "A safari vehicle parked in the vast African savannah during sunset, ideal for adventure and travel themes.",
+    category: "Safari",
+  },{
+    src: "./safari/29.jpg",
+    alt: "A safari vehicle parked in the vast African savannah during sunset, ideal for adventure and travel themes.",
+    category: "Safari",
+  },{
+    src: "./safari/30.jpg",
+    alt: "A safari vehicle parked in the vast African savannah during sunset, ideal for adventure and travel themes.",
+    category: "Safari",
+  },{
+    src: "./safari/31.jpg",
+    alt: "A safari vehicle parked in the vast African savannah during sunset, ideal for adventure and travel themes.",
+    category: "Safari",
+  },{
+    src: "./safari/32.jpg",
+    alt: "A safari vehicle parked in the vast African savannah during sunset, ideal for adventure and travel themes.",
+    category: "Safari",
+  },{
+    src: "./safari/33.jpg",
+    alt: "A safari vehicle parked in the vast African savannah during sunset, ideal for adventure and travel themes.",
+    category: "Safari",
+  },{
+    src: "./safari/34.jpg",
+    alt: "A safari vehicle parked in the vast African savannah during sunset, ideal for adventure and travel themes.",
+    category: "Safari",
+  },{
+    src: "./safari/35.jpg",
+    alt: "A safari vehicle parked in the vast African savannah during sunset, ideal for adventure and travel themes.",
+    category: "Safari",
+  },{
+    src: "./safari/36.jpg",
+    alt: "A safari vehicle parked in the vast African savannah during sunset, ideal for adventure and travel themes.",
+    category: "Safari",
+  },
+  {
     src: "./rafting/1.jpg",
     alt: "A stunning aerial view of a tropical Maldives beach with clear turquoise waters and resorts along the shore.",
     category: "Rafting",
@@ -473,6 +622,31 @@ export const galleryImages: GalleryImage[] = [
     category: "Boat safari",
   },
   {
+    src: "./boat/13.jpg",
+    alt: "A stunning aerial view of a tropical Maldives beach with clear turquoise waters and resorts along the shore.",
+    category: "Boat safari",
+  },{
+    src: "./boat/14.jpg",
+    alt: "A stunning aerial view of a tropical Maldives beach with clear turquoise waters and resorts along the shore.",
+    category: "Boat safari",
+  },{
+    src: "./boat/15.jpg",
+    alt: "A stunning aerial view of a tropical Maldives beach with clear turquoise waters and resorts along the shore.",
+    category: "Boat safari",
+  },{
+    src: "./boat/16.jpg",
+    alt: "A stunning aerial view of a tropical Maldives beach with clear turquoise waters and resorts along the shore.",
+    category: "Boat safari",
+  },{
+    src: "./boat/17.jpg",
+    alt: "A stunning aerial view of a tropical Maldives beach with clear turquoise waters and resorts along the shore.",
+    category: "Boat safari",
+  },{
+    src: "./boat/18.jpg",
+    alt: "A stunning aerial view of a tropical Maldives beach with clear turquoise waters and resorts along the shore.",
+    category: "Boat safari",
+  },
+  {
     src: "./Airport/1.jpg",
     alt: "Sri Lankan Air Port Transport Services",
     category: "Airport Transport",
@@ -488,6 +662,30 @@ export const galleryImages: GalleryImage[] = [
   },
   {
     src: "./Airport/4.jpg",
+    alt: "Sri Lankan Air Port Transport Services",
+    category: "Airport Transport",
+  },{
+    src: "./Airport/5.jpg",
+    alt: "Sri Lankan Air Port Transport Services",
+    category: "Airport Transport",
+  },{
+    src: "./Airport/6.jpg",
+    alt: "Sri Lankan Air Port Transport Services",
+    category: "Airport Transport",
+  },{
+    src: "./Airport/7.jpg",
+    alt: "Sri Lankan Air Port Transport Services",
+    category: "Airport Transport",
+  },{
+    src: "./Airport/8.jpg",
+    alt: "Sri Lankan Air Port Transport Services",
+    category: "Airport Transport",
+  },{
+    src: "./Airport/9.jpg",
+    alt: "Sri Lankan Air Port Transport Services",
+    category: "Airport Transport",
+  },{
+    src: "./Airport/10.jpg",
     alt: "Sri Lankan Air Port Transport Services",
     category: "Airport Transport",
   },
