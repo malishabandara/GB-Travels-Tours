@@ -39,20 +39,22 @@ export default function Gallery() {
           </p>
         </div>
 
-        <div className="mt-8 flex justify-center">
+        <div className="mt-8">
           <Tabs
             value={category}
             onValueChange={(v) => setCategory(v as GalleryCategory)}
             className="w-full"
           >
-            <div className="flex justify-center">
-              <TabsList className="flex flex-wrap gap-2">
+            <div className="w-full overflow-x-auto">
+              <div className="min-w-max flex justify-start md:justify-center">
+                <TabsList className="gap-2 whitespace-nowrap">
                 {CATEGORIES.map((c) => (
-                  <TabsTrigger key={c} value={c}>
+                  <TabsTrigger key={c} value={c} className="shrink-0">
                     {c}
                   </TabsTrigger>
                 ))}
               </TabsList>
+              </div>
             </div>
             <TabsContent value={category}>
               <div className="mt-6 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4">
