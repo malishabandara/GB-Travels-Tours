@@ -1,8 +1,13 @@
 import { MapPin, Star } from "lucide-react";
+import { useState } from "react";
+import { MapPin, Star } from "lucide-react";
 import { motion } from "framer-motion";
 import type { Review } from "@/data/reviews";
 
 export default function ReviewCard({ r, index }: { r: Review; index: number }) {
+  const [open, setOpen] = useState(false);
+  const clampStyle = { display: '-webkit-box', WebkitLineClamp: 5, WebkitBoxOrient: 'vertical' } as React.CSSProperties;
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 10 }}
@@ -10,7 +15,7 @@ export default function ReviewCard({ r, index }: { r: Review; index: number }) {
       viewport={{ once: true, amount: 0.3 }}
       transition={{ duration: 0.5, delay: index * 0.06 }}
       className="rounded-xl border border-border/60 bg-card/60 p-6 shadow-sm hover:shadow-md transition-shadow flex flex-col h-full"
-   >
+    >
       <div className="flex items-center justify-between">
         <div>
           <p className="font-semibold capitalize">{r.name}</p>
@@ -24,9 +29,24 @@ export default function ReviewCard({ r, index }: { r: Review; index: number }) {
           ))}
         </div>
       </div>
-      <p className="mt-4 text-sm text-foreground/90 leading-relaxed flex-grow overflow-hidden" style={{ display: '-webkit-box', WebkitLineClamp: 5, WebkitBoxOrient: 'vertical' }}>
+
+      <p
+        className={`mt-4 text-sm text-foreground/90 leading-relaxed flex-grow ${open ? "" : "overflow-hidden"}`}
+        style={open ? undefined : clampStyle}
+      >
         “{r.content}”
       </p>
+
+      <div className="mt-3">
+        <button
+          type="button"
+          onClick={() => setOpen((s) => !s)}
+          className="text-sm text-primary font-medium"
+          aria-expanded={open}
+        >
+          {open ? "Read less" : "Read more"}
+        </button>
+      </div>
     </motion.div>
   );
 }
