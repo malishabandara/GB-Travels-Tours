@@ -1,6 +1,6 @@
 import { MapPin, Star } from "lucide-react";
-import { useState } from "react";
-import { MapPin, Star } from "lucide-react";
+import React, { useState } from "react";
+import * as Lucide from "lucide-react";
 import { motion } from "framer-motion";
 import type { Review } from "@/data/reviews";
 
