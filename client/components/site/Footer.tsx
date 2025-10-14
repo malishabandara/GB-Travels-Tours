@@ -51,11 +51,11 @@ export default function Footer() {
           <div className="flex items-center gap-3">
             <img
               src="./logo.jpg"
-              alt="GB Travels & Tours logo"
+              alt="GB Tours & travels logo"
               className="h-10 w-10 rounded-full object-cover drop-shadow"
               decoding="async"
             />
-            <h3 className="text-lg font-semibold">GB Travels & Tours</h3>
+            <h3 className="text-lg font-semibold">GB Tours & travels</h3>
           </div>
           <p className="mt-3 text-sm text-muted-foreground max-w-sm">
             Premium travel experiences tailored to your time. From quick city
