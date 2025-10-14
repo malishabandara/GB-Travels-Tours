@@ -1,12 +1,13 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { DemoResponse } from "@shared/api";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-import { ArrowRight, CheckCircle2, MapPin, Star } from "lucide-react";
+import { ArrowRight, CheckCircle2 } from "lucide-react";
 import { packages } from "@/data/packages";
 import TourCard from "@/components/site/TourCard";
 import { galleryImages } from "@/data/gallery";
 import { heroImages } from "@/data/hero";
+import ReviewsCarousel from "@/components/site/ReviewsCarousel";
 
 export default function Index() {
   const [exampleFromServer, setExampleFromServer] = useState("");
@@ -186,6 +187,7 @@ export default function Index() {
             Real stories from travelers who explored with us.
           </p>
         </div>
+<<<<<<< HEAD
         <div className="mt-10 grid md:grid-cols-3 gap-5">
           {[
             {
@@ -290,6 +292,10 @@ export default function Index() {
               <p className="mt-4 text-sm text-foreground/90">“{r.content}”</p>
             </motion.div>
           ))}
+=======
+        <div className="mt-10">
+          <ReviewsCarousel />
+>>>>>>> 67b2dd162e1aa26f7c2911bd8cdfaba0c19c7645
         </div>
       </section>
 
