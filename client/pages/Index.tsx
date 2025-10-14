@@ -216,6 +216,41 @@ export default function Index() {
               location: "Span",
               rating: 5,
             },
+            {
+              name: "Maria P",
+              content:
+                "Me and my friend had a pleasure joining a 3 days tour in Sri Lanka led by Shaggy. It was amazing experience. Despite we didnt have enough time to travel around the island, thanks to our guide we were able to have adventurous experience and visit a lot of beautiful places. For anyone visiting Sri Lanka, I would highly reccomend to have Shaggy as you tour guide.",
+              location: "London",
+              rating: 5,
+            },
+            {
+              name: "Dr.Rutuja Ambekar",
+              content:
+                "Sri Lanka is spectacular. The country’s beauty from ancient architecture, diverse landscapes, and gorgeous beaches took my breath away. The people are one of the most warmest and welcoming ones you will meet. We had the opportunity to travel around Sri Lanka with GB Tours & Travels. We chose GB Tours & Travels because of their flexibility to arrange the tour according to our expectations. We found that other tours had a fixed number of places that you could travel to and were not willing to accommodate any other places we wished to visit. Mr. Supun (details mentioned below) created an itinerary for us including the places that we wanted to see. The attention to detail in planning including private transportation, accommodation and round the clock assistance, made our journey smooth and flawless. ",
+              location: "Pune, India",
+              rating: 5,
+            },
+            {
+              name: "Tamar C",
+              content:
+                "Shaggy was super helpful, full of knowledge and great suggestions and recommendations. We experienced amazing things we couldn’t find without his help. He is so talented and patient. We had a great time traveling with him ❤️",
+              location: "US",
+              rating: 5,
+            },
+            {
+              name: "Gosnm",
+              content:
+                "Supun was an excellent tour guide and driver. On our second day in Sri Lanka he collected us from hotel in Negombo and drove us to Wilpattu wildlife park, where he stayed with us on the park tour acting as a translator and helper to the parks provided guide/ driver. This certainly made the park visit more enjoyable. On the return trip to Negombo Supun was happy to stop at several places along the roadside for us to try local delicacies. His English was good, and we enjoyed our conversations with him about Sri Lanka. He gave good advice as to good places to go further afield",
+              location: "Mallacoota, Australia",
+              rating: 5,
+            },
+            {
+              name: "TM",
+              content:
+                "My experience with GB TOURS AND TRAVELS during my trip to Sri Lanka was nothing short of phenomenal. The itinerary crafted for us by Supun showcased the country's diverse beauty, from ancient temples to breathtaking landscapes. The attention to detail in planning, including transportation and accommodations, made the journey seamless. Sampath wonderfully humble person was our driver who provided insightful knowledge, adding depth to our exploration. GB TOURS AND TRAVELS not only met but exceeded my expectations, ensuring a memorable and enriching travel experience in Sri Lanka. I highly recommend their services for anyone seeking a well-organized and culturally immersive adventure.",
+              location: "Span",
+              rating: 5,
+            },
           ].map((r, i) => (
             <motion.div
               key={r.name}
