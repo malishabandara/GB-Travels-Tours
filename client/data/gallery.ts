@@ -18,7 +18,7 @@ export const galleryImages: GalleryImage[] = [
     category: "Tours",
   },
   {
-    src: "./tour/2.jpg",
+    src: "./tour/2.jpeg",
     alt: "A stunning aerial view of a tropical Maldives beach with clear turquoise waters and resorts along the shore.",
     category: "Tours",
   },
@@ -228,7 +228,7 @@ export const galleryImages: GalleryImage[] = [
     category: "Tours",
   },
   {
-    src: "./tour/42.jpg",
+    src: "./tour/42.jpeg",
     alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
     category: "Tours",
   },
@@ -238,106 +238,106 @@ export const galleryImages: GalleryImage[] = [
     category: "Tours",
   },
   {
-    src: "./tour/44.jpg",
+    src: "./tour/44.jpeg",
     alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
     category: "Tours",
   },
   {
-    src: "./tour/45.jpg",
+    src: "./tour/45.jpeg",
     alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
     category: "Tours",
   },
   {
-    src: "./tour/46.jpg",
+    src: "./tour/46.jpeg",
     alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
     category: "Tours",
   },
   {
-    src: "./tour/47.jpg",
+    src: "./tour/47.jpeg",
     alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
     category: "Tours",
   },{
-    src: "./tour/48.jpg",
+    src: "./tour/48.jpeg",
     alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
     category: "Tours",
   },{
-    src: "./tour/49.jpg",
+    src: "./tour/49.jpeg",
     alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
     category: "Tours",
   },{
-    src: "./tour/50.jpg",
+    src: "./tour/50.jpeg",
     alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
     category: "Tours",
   },{
-    src: "./tour/51.jpg",
+    src: "./tour/51.jpeg",
     alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
     category: "Tours",
   },{
-    src: "./tour/52.jpg",
+    src: "./tour/52.jpeg",
     alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
     category: "Tours",
   },{
-    src: "./tour/53.jpg",
+    src: "./tour/53.jpeg",
     alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
     category: "Tours",
   },{
-    src: "./tour/54.jpg",
+    src: "./tour/54.jpeg",
     alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
     category: "Tours",
   },{
-    src: "./tour/55.jpg",
+    src: "./tour/55.jpeg",
     alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
     category: "Tours",
   },{
-    src: "./tour/56.jpg",
+    src: "./tour/56.jpeg",
     alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
     category: "Tours",
   },{
-    src: "./tour/57.jpg",
+    src: "./tour/57.jpeg",
     alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
     category: "Tours",
   },{
-    src: "./tour/58.jpg",
+    src: "./tour/58.jpeg",
     alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
     category: "Tours",
   },{
-    src: "./tour/59.jpg",
+    src: "./tour/59.jpeg",
     alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
     category: "Tours",
   },{
-    src: "./tour/60.jpg",
+    src: "./tour/60.jpeg",
     alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
     category: "Tours",
   },{
-    src: "./tour/61.jpg",
+    src: "./tour/61.jpeg",
     alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
     category: "Tours",
   },{
-    src: "./tour/62.jpg",
+    src: "./tour/62.jpeg",
     alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
     category: "Tours",
   },{
-    src: "./tour/63.jpg",
+    src: "./tour/63.jpeg",
     alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
     category: "Tours",
   },{
-    src: "./tour/64.jpg",
+    src: "./tour/64.jpeg",
     alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
     category: "Tours",
   },{
-    src: "./tour/65.jpg",
+    src: "./tour/65.jpeg",
     alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
     category: "Tours",
   },{
-    src: "./tour/66.jpg",
+    src: "./tour/66.jpeg",
     alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
     category: "Tours",
   },{
-    src: "./tour/67.jpg",
+    src: "./tour/67.jpeg",
     alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
     category: "Tours",
   },{
-    src: "./tour/68.jpg",
+    src: "./tour/68.jpeg",
     alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
     category: "Tours",
   },{
@@ -467,12 +467,12 @@ export const galleryImages: GalleryImage[] = [
     category: "Safari",
   },
   {
-    src: "./safari/24.jpeg",
+    src: "./safari/24.jpg",
     alt: "A safari vehicle parked in the vast African savannah during sunset, ideal for adventure and travel themes.",
     category: "Safari",
   },
   {
-    src: "./safari/25.jpeg",
+    src: "./safari/25.jpg",
     alt: "A safari vehicle parked in the vast African savannah during sunset, ideal for adventure and travel themes.",
     category: "Safari",
   },
