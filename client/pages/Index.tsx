@@ -189,10 +189,10 @@ export default function Index() {
         <div className="mt-10 grid md:grid-cols-3 gap-5">
           {[
             {
-              name: "david f",
+              name: "David Ferre Guirao",
               content:
                 "Wonderful route through Sri Lanka thanks to GB Tours & Travel and its responsible (Shaggy) who helped us to set up the trip and provided us with exquisite care throughout, taking care of us and dedicated 100% on our travel days. An endearing, cheerful person with all the professionalism one expects when hiring a Guide/Driver Service. Also your driver, Shan, excellent person and who took us everywhere safely and pleasantly. Without a doubt GB Tours&Travel and Shaggy made a difference to make this trip an indelible memory for all of us.",
-              location: "England",
+              location: "Span",
               rating: 5,
             },
             {
@@ -203,21 +203,21 @@ export default function Index() {
               rating: 5,
             },
             {
-              name: "Nicola C",
+              name: "Nicola Colombini",
               content:
                 "Supun and his friend Sachin came to pick me up in Colombo and together we visited the south of Sri Lanka plus Yala Park. I don’t have enough vocabulary to explain the amazing experience I had! I couldn’t have asked for more honestly! If you want to visit the island, Supun is definitely your man! Highly recommended",
               location: "German",
               rating: 5,
             },
             {
-              name: "Marc l",
+              name: "Marc Lloret",
               content:
                 "Unforgettable experience with a company of ten, very friendly, attentive, and always with a smile. GB tours & travel recommended 100% alongside Shaggy, a perfect guide.",
               location: "Span",
               rating: 5,
             },
             {
-              name: "Maria P",
+              name: "Maria Plevako",
               content:
                 "Me and my friend had a pleasure joining a 3 days tour in Sri Lanka led by Shaggy. It was amazing experience. Despite we didnt have enough time to travel around the island, thanks to our guide we were able to have adventurous experience and visit a lot of beautiful places. For anyone visiting Sri Lanka, I would highly reccomend to have Shaggy as you tour guide.",
               location: "London",
@@ -242,6 +242,20 @@ export default function Index() {
               content:
                 "Supun was an excellent tour guide and driver. On our second day in Sri Lanka he collected us from hotel in Negombo and drove us to Wilpattu wildlife park, where he stayed with us on the park tour acting as a translator and helper to the parks provided guide/ driver. This certainly made the park visit more enjoyable. On the return trip to Negombo Supun was happy to stop at several places along the roadside for us to try local delicacies. His English was good, and we enjoyed our conversations with him about Sri Lanka. He gave good advice as to good places to go further afield",
               location: "Mallacoota, Australia",
+              rating: 5,
+            },
+            {
+              name: "Laura Perez",
+              content:
+                "Our guide, Shaggy, was a very kind person, a true professional, and very attentive. We spent a wonderful few days with him touring Sri Lanka. Highly recommended 🙌",
+              location: "Span",
+              rating: 5,
+            },
+            {
+              name: "Gabriella Donno",
+              content:
+                "A very efficient and fun service! Shaggy was waiting at the airport for me, with flowers and a board with my name! The drive to Anuradhapura went so fast as Shaggy was telling me all about Sri Lanka and the local culture. Thank you!",
+              location: "Thailand",
               rating: 5,
             },
             {

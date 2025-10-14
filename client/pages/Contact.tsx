@@ -25,7 +25,7 @@ export default function Contact() {
     <main className="min-h-screen relative">
       <div className="absolute inset-0 -z-10">
         <img
-          src="https://images.pexels.com/photos/15794381/pexels-photo-15794381.jpeg?auto=compress&cs=tinysrgb&w=2000"
+          src="./tour/34.jpg"
           alt="Northern lights"
           className="w-full h-full object-cover"
         />

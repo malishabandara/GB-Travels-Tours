@@ -45,22 +45,22 @@ export default function About() {
             <div className="rounded-xl overflow-hidden shadow-lg">
               <div className="grid grid-cols-2 md:grid-cols-4 gap-1">
                 <img
-                  src="https://images.pexels.com/photos/13256066/pexels-photo-13256066.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src="./boat/3.jpg"
                   alt="city"
                   className="w-full h-44 object-cover"
                 />
                 <img
-                  src="https://images.pexels.com/photos/3601425/pexels-photo-3601425.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src="./safari/23.jpg"
                   alt="beach"
                   className="w-full h-44 object-cover"
                 />
                 <img
-                  src="https://images.pexels.com/photos/20179680/pexels-photo-20179680.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src="./tour/4.jpg"
                   alt="safari"
                   className="w-full h-44 object-cover"
                 />
                 <img
-                  src="https://images.pexels.com/photos/34239912/pexels-photo-34239912.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src="./rafting/1.jpg"
                   alt="desert"
                   className="w-full h-44 object-cover"
                 />
@@ -130,7 +130,7 @@ export default function About() {
 
             <div className="rounded-lg overflow-hidden border border-border/60">
               <img
-                src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src="./tour/2.jpg"
                 alt="team"
                 className="w-full h-40 object-cover"
               />

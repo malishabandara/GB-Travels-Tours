@@ -105,10 +105,13 @@ export default function Footer() {
             </a>
           </div>
           <div className="mt-4 flex items-center gap-3 text-muted-foreground">
-            <a className="hover:text-primary" href="#" aria-label="Facebook">
+            <a className="hover:text-primary" href="https://www.facebook.com/share/1BZ9Uvjg5W/?mibextid=wwXIfr" aria-label="Facebook">
               <Facebook className="h-5 w-5" />
             </a>
-            <a className="hover:text-primary" href="#" aria-label="Tripadvisor">
+            <a className="hover:text-primary" href="www.instagram.com/gbtoursandtravels" aria-label="Instagram">
+              <TripadvisorIcon className="h-5 w-5" />
+            </a>
+            <a className="hover:text-primary" href="https://www.tripadvisor.co.uk/Attraction_Review-g293962-d25259413-Reviews-GB_Tours_and_Travels-Colombo_Western_Province.html" aria-label="Tripadvisor">
               <TripadvisorIcon className="h-5 w-5" />
             </a>
           </div>
