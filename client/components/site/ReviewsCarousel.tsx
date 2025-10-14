@@ -27,33 +27,13 @@ export default function ReviewsCarousel() {
   useEffect(() => {
     if (!api) return;
     let id: number | null = null;
-    const play = () => {
-      if (id != null || paused) return;
+    if (!paused) {
       id = window.setInterval(() => {
         api.scrollNext();
       }, 4000);
-    };
-    const stop = () => {
-      if (id != null) window.clearInterval(id);
-      id = null;
-    };
-    play();
-    const node = containerRef.current;
-    if (node) {
-      node.addEventListener("mouseenter", () => {
-        setPaused(true);
-        stop();
-      });
-      node.addEventListener("mouseleave", () => {
-        setPaused(false);
-        play();
-      });
     }
     return () => {
-      stop();
-      if (node) {
-        node.replaceWith(node.cloneNode(true));
-      }
+      if (id != null) window.clearInterval(id);
     };
   }, [api, paused]);
 
