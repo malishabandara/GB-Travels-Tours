@@ -43,7 +43,7 @@ export default function Navbar() {
           <img
             src="./logo.jpg"
             alt="GB Travels & Tours logo"
-            className="h-12 w-12 object-contain drop-shadow"
+            className="h-12 w-12 rounded-full object-cover drop-shadow"
             decoding="async"
           />
           <span className="font-extrabold tracking-tight text-lg">
@@ -80,7 +80,7 @@ export default function Navbar() {
                 <img
                   src="./logo.jpg"
                   alt="GB Travels & Tours logo"
-                  className="h-8 w-8 object-contain drop-shadow"
+                  className="h-8 w-8 rounded-full object-cover drop-shadow"
                   decoding="async"
                 />
                 <span className="font-extrabold tracking-tight text-lg">
