@@ -25,7 +25,7 @@ export default function ReviewCard({ r, index }: { r: Review; index: number }) {
         </div>
         <div className="flex items-center text-primary">
           {Array.from({ length: r.rating }).map((_, idx) => (
-            <Star key={idx} className="h-4 w-4 fill-primary" />
+            <Lucide.Star key={idx} className="h-4 w-4 fill-primary" />
           ))}
         </div>
       </div>
