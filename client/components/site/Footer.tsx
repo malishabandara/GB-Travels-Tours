@@ -105,15 +105,27 @@ export default function Footer() {
             </a>
           </div>
           <div className="mt-4 flex items-center gap-6 text-muted-foreground">
-            <a className="hover:text-primary flex flex-col items-center gap-1" href="https://www.facebook.com/share/1BZ9Uvjg5W/?mibextid=wwXIfr" aria-label="Facebook">
+            <a
+              className="hover:text-primary flex flex-col items-center gap-1"
+              href="https://www.facebook.com/share/1BZ9Uvjg5W/?mibextid=wwXIfr"
+              aria-label="Facebook"
+            >
               <Facebook className="h-5 w-5" />
               <span className="text-xs">Facebook</span>
             </a>
-            <a className="hover:text-primary flex flex-col items-center gap-1" href="https://www.instagram.com/gbtoursandtravels" aria-label="Instagram">
+            <a
+              className="hover:text-primary flex flex-col items-center gap-1"
+              href="https://www.instagram.com/gbtoursandtravels"
+              aria-label="Instagram"
+            >
               <Instagram className="h-5 w-5" />
               <span className="text-xs">Instagram</span>
             </a>
-            <a className="hover:text-primary flex flex-col items-center gap-1" href="https://www.tripadvisor.co.uk/Attraction_Review-g293962-d25259413-Reviews-GB_Tours_and_Travels-Colombo_Western_Province.html" aria-label="Tripadvisor">
+            <a
+              className="hover:text-primary flex flex-col items-center gap-1"
+              href="https://www.tripadvisor.co.uk/Attraction_Review-g293962-d25259413-Reviews-GB_Tours_and_Travels-Colombo_Western_Province.html"
+              aria-label="Tripadvisor"
+            >
               <TripadvisorIcon className="h-5 w-5" />
               <span className="text-xs">Tripadvisor</span>
             </a>

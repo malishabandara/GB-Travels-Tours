@@ -48,12 +48,12 @@ export default function Gallery() {
             <div className="w-full overflow-x-auto">
               <div className="min-w-max flex justify-start md:justify-center">
                 <TabsList className="gap-2 whitespace-nowrap">
-                {CATEGORIES.map((c) => (
-                  <TabsTrigger key={c} value={c} className="shrink-0">
-                    {c}
-                  </TabsTrigger>
-                ))}
-              </TabsList>
+                  {CATEGORIES.map((c) => (
+                    <TabsTrigger key={c} value={c} className="shrink-0">
+                      {c}
+                    </TabsTrigger>
+                  ))}
+                </TabsList>
               </div>
             </div>
             <TabsContent value={category}>
