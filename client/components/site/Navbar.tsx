@@ -43,7 +43,7 @@ export default function Navbar() {
           <img
             src="./logo.jpg"
             alt="GB Travels & Tours logo"
-            className="h-13 w-13 object-contain drop-shadow"
+            className="h-12 w-12 object-contain drop-shadow"
             decoding="async"
           />
           <span className="font-extrabold tracking-tight text-lg">
