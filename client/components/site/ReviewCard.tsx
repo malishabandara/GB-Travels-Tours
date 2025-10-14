@@ -24,7 +24,9 @@ export default function ReviewCard({ r, index }: { r: Review; index: number }) {
           ))}
         </div>
       </div>
-      <p className="mt-4 text-sm text-foreground/90 leading-relaxed">“{r.content}”</p>
+      <p className="mt-4 text-sm text-foreground/90 leading-relaxed flex-grow overflow-hidden" style={{ display: '-webkit-box', WebkitLineClamp: 5, WebkitBoxOrient: 'vertical' }}>
+        “{r.content}”
+      </p>
     </motion.div>
   );
 }
