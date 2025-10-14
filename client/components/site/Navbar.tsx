@@ -42,7 +42,7 @@ export default function Navbar() {
         <Link to="/" className="group inline-flex items-center gap-2">
           <img
             src="./logo.jpg"
-            alt="GB Travels & Tours logo"
+            alt="GB Tours & travels logo"
             className="h-12 w-12 rounded-full object-cover drop-shadow"
             decoding="async"
           />
@@ -79,7 +79,7 @@ export default function Navbar() {
               <div className="flex items-center gap-2 mb-6">
                 <img
                   src="./logo.jpg"
-                  alt="GB Travels & Tours logo"
+                  alt="GB Tours & travels logo"
                   className="h-8 w-8 rounded-full object-cover drop-shadow"
                   decoding="async"
                 />
