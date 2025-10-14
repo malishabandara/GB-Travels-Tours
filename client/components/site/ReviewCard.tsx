@@ -9,7 +9,7 @@ export default function ReviewCard({ r, index }: { r: Review; index: number }) {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.3 }}
       transition={{ duration: 0.5, delay: index * 0.06 }}
-      className="rounded-xl border border-border/60 bg-card/60 p-6 shadow-sm hover:shadow-md transition-shadow"
+      className="rounded-xl border border-border/60 bg-card/60 p-6 shadow-sm hover:shadow-md transition-shadow flex flex-col h-full"
    >
       <div className="flex items-center justify-between">
         <div>
