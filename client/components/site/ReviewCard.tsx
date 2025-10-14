@@ -20,7 +20,7 @@ export default function ReviewCard({ r, index }: { r: Review; index: number }) {
         <div>
           <p className="font-semibold capitalize">{r.name}</p>
           <p className="text-xs text-muted-foreground flex items-center gap-1">
-            <MapPin className="h-3.5 w-3.5" /> {r.location}
+            <Lucide.MapPin className="h-3.5 w-3.5" /> {r.location}
           </p>
         </div>
         <div className="flex items-center text-primary">
