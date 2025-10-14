@@ -47,7 +47,7 @@ export default function Navbar() {
             decoding="async"
           />
           <span className="font-extrabold tracking-tight text-lg">
-            <span className="text-primary">GB</span> Travels & Tours
+            <span className="text-primary">GB</span> Tours & Travels
           </span>
         </Link>
         <nav className="hidden md:flex items-center gap-8">
@@ -84,7 +84,7 @@ export default function Navbar() {
                   decoding="async"
                 />
                 <span className="font-extrabold tracking-tight text-lg">
-                  <span className="text-primary">GB</span> Travels & Tours
+                  <span className="text-primary">GB</span> Tours & Travels
                 </span>
               </div>
               <nav className="grid gap-1">
