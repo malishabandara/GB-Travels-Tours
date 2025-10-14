@@ -48,7 +48,15 @@ export default function Footer() {
     <footer className="border-t border-border/60 bg-secondary/30">
       <div className="container py-10 grid grid-cols-1 md:grid-cols-3 gap-8">
         <div>
-          <h3 className="text-lg font-semibold">GB Travels & Tours</h3>
+          <div className="flex items-center gap-3">
+            <img
+              src="./logo.jpg"
+              alt="GB Travels & Tours logo"
+              className="h-10 w-10 rounded-full object-cover drop-shadow"
+              decoding="async"
+            />
+            <h3 className="text-lg font-semibold">GB Travels & Tours</h3>
+          </div>
           <p className="mt-3 text-sm text-muted-foreground max-w-sm">
             Premium travel experiences tailored to your time. From quick city
             escapes to grand tours, ride in comfort with cars and vans.
