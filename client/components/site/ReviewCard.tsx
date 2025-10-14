@@ -1,4 +1,3 @@
-import { MapPin, Star } from "lucide-react";
 import React, { useState } from "react";
 import * as Lucide from "lucide-react";
 import { motion } from "framer-motion";
