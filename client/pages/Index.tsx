@@ -56,7 +56,7 @@ export default function Index() {
               transition={{ duration: 0.6 }}
               className="font-extrabold text-4xl md:text-6xl leading-tight drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)]"
             >
-              GB Tours & travels
+              GB Tours & Travels
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 10 }}
