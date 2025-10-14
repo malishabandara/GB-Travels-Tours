@@ -55,7 +55,7 @@ export default function Footer() {
               className="h-10 w-10 rounded-full object-cover drop-shadow"
               decoding="async"
             />
-            <h3 className="text-lg font-semibold">GB Tours & travels</h3>
+            <h3 className="text-lg font-semibold">GB Tours & Travels</h3>
           </div>
           <p className="mt-3 text-sm text-muted-foreground max-w-sm">
             Premium travel experiences tailored to your time. From quick city
@@ -101,9 +101,9 @@ export default function Footer() {
           <div className="mt-3 space-y-2 text-sm">
             <a
               className="flex items-center gap-2 hover:text-primary"
-              href="mailto:nikinihunukumbura@gmail.com"
+              href="#"
             >
-              <Mail className="h-4 w-4" /> gbtravels.com
+              <Mail className="h-4 w-4" /> 03, Heraliyawala 60000
             </a>
             <a
               className="flex items-center gap-2 hover:text-primary"
