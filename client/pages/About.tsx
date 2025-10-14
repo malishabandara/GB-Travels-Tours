@@ -153,7 +153,10 @@ export default function About() {
                   className="flex-1 w-full rounded-md border border-border/40 bg-background px-3 py-2 text-sm"
                   placeholder="Email address"
                 />
-                <button type="submit" className="w-full sm:w-auto flex-shrink-0 rounded-md bg-primary px-3 py-2 text-sm font-semibold text-primary-foreground text-center">
+                <button
+                  type="submit"
+                  className="w-full sm:w-auto flex-shrink-0 rounded-md bg-primary px-3 py-2 text-sm font-semibold text-primary-foreground text-center"
+                >
                   Subscribe
                 </button>
               </form>
