@@ -467,57 +467,57 @@ export const galleryImages: GalleryImage[] = [
     category: "Safari",
   },
   {
-    src: "./safari/24.jpg",
+    src: "./safari/24.jpeg",
     alt: "A safari vehicle parked in the vast African savannah during sunset, ideal for adventure and travel themes.",
     category: "Safari",
   },
   {
-    src: "./safari/25.jpg",
+    src: "./safari/25.jpeg",
     alt: "A safari vehicle parked in the vast African savannah during sunset, ideal for adventure and travel themes.",
     category: "Safari",
   },
   {
-    src: "./safari/26.jpg",
+    src: "./safari/26.jpeg",
     alt: "A safari vehicle parked in the vast African savannah during sunset, ideal for adventure and travel themes.",
     category: "Safari",
   },{
-    src: "./safari/27.jpg",
+    src: "./safari/27.jpeg",
     alt: "A safari vehicle parked in the vast African savannah during sunset, ideal for adventure and travel themes.",
     category: "Safari",
   },{
-    src: "./safari/28.jpg",
+    src: "./safari/28.jpeg",
     alt: "A safari vehicle parked in the vast African savannah during sunset, ideal for adventure and travel themes.",
     category: "Safari",
   },{
-    src: "./safari/29.jpg",
+    src: "./safari/29.jpeg",
     alt: "A safari vehicle parked in the vast African savannah during sunset, ideal for adventure and travel themes.",
     category: "Safari",
   },{
-    src: "./safari/30.jpg",
+    src: "./safari/30.jpeg",
     alt: "A safari vehicle parked in the vast African savannah during sunset, ideal for adventure and travel themes.",
     category: "Safari",
   },{
-    src: "./safari/31.jpg",
+    src: "./safari/31.jpeg",
     alt: "A safari vehicle parked in the vast African savannah during sunset, ideal for adventure and travel themes.",
     category: "Safari",
   },{
-    src: "./safari/32.jpg",
+    src: "./safari/32.jpeg",
     alt: "A safari vehicle parked in the vast African savannah during sunset, ideal for adventure and travel themes.",
     category: "Safari",
   },{
-    src: "./safari/33.jpg",
+    src: "./safari/33.jpeg",
     alt: "A safari vehicle parked in the vast African savannah during sunset, ideal for adventure and travel themes.",
     category: "Safari",
   },{
-    src: "./safari/34.jpg",
+    src: "./safari/34.jpeg",
     alt: "A safari vehicle parked in the vast African savannah during sunset, ideal for adventure and travel themes.",
     category: "Safari",
   },{
-    src: "./safari/35.jpg",
+    src: "./safari/35.jpeg",
     alt: "A safari vehicle parked in the vast African savannah during sunset, ideal for adventure and travel themes.",
     category: "Safari",
   },{
-    src: "./safari/36.jpg",
+    src: "./safari/36.jpeg",
     alt: "A safari vehicle parked in the vast African savannah during sunset, ideal for adventure and travel themes.",
     category: "Safari",
   },
@@ -622,27 +622,27 @@ export const galleryImages: GalleryImage[] = [
     category: "Boat safari",
   },
   {
-    src: "./boat/13.jpg",
+    src: "./boat/13.jpeg",
     alt: "A stunning aerial view of a tropical Maldives beach with clear turquoise waters and resorts along the shore.",
     category: "Boat safari",
   },{
-    src: "./boat/14.jpg",
+    src: "./boat/14.jpeg",
     alt: "A stunning aerial view of a tropical Maldives beach with clear turquoise waters and resorts along the shore.",
     category: "Boat safari",
   },{
-    src: "./boat/15.jpg",
+    src: "./boat/15.jpeg",
     alt: "A stunning aerial view of a tropical Maldives beach with clear turquoise waters and resorts along the shore.",
     category: "Boat safari",
   },{
-    src: "./boat/16.jpg",
+    src: "./boat/16.jpeg",
     alt: "A stunning aerial view of a tropical Maldives beach with clear turquoise waters and resorts along the shore.",
     category: "Boat safari",
   },{
-    src: "./boat/17.jpg",
+    src: "./boat/17.jpeg",
     alt: "A stunning aerial view of a tropical Maldives beach with clear turquoise waters and resorts along the shore.",
     category: "Boat safari",
   },{
-    src: "./boat/18.jpg",
+    src: "./boat/18.jpeg",
     alt: "A stunning aerial view of a tropical Maldives beach with clear turquoise waters and resorts along the shore.",
     category: "Boat safari",
   },
@@ -665,27 +665,27 @@ export const galleryImages: GalleryImage[] = [
     alt: "Sri Lankan Air Port Transport Services",
     category: "Airport Transport",
   },{
-    src: "./Airport/5.jpg",
+    src: "./Airport/5.jpeg",
     alt: "Sri Lankan Air Port Transport Services",
     category: "Airport Transport",
   },{
-    src: "./Airport/6.jpg",
+    src: "./Airport/6.jpeg",
     alt: "Sri Lankan Air Port Transport Services",
     category: "Airport Transport",
   },{
-    src: "./Airport/7.jpg",
+    src: "./Airport/7.jpeg",
     alt: "Sri Lankan Air Port Transport Services",
     category: "Airport Transport",
   },{
-    src: "./Airport/8.jpg",
+    src: "./Airport/8.jpeg",
     alt: "Sri Lankan Air Port Transport Services",
     category: "Airport Transport",
   },{
-    src: "./Airport/9.jpg",
+    src: "./Airport/9.jpeg",
     alt: "Sri Lankan Air Port Transport Services",
     category: "Airport Transport",
   },{
-    src: "./Airport/10.jpg",
+    src: "./Airport/10.jpeg",
     alt: "Sri Lankan Air Port Transport Services",
     category: "Airport Transport",
   },
