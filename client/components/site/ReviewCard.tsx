@@ -5,7 +5,11 @@ import type { Review } from "@/data/reviews";
 
 export default function ReviewCard({ r, index }: { r: Review; index: number }) {
   const [open, setOpen] = useState(false);
-  const clampStyle = { display: '-webkit-box', WebkitLineClamp: 5, WebkitBoxOrient: 'vertical' } as React.CSSProperties;
+  const clampStyle = {
+    display: "-webkit-box",
+    WebkitLineClamp: 5,
+    WebkitBoxOrient: "vertical",
+  } as React.CSSProperties;
 
   return (
     <motion.div

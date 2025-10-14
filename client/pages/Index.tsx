@@ -180,7 +180,9 @@ export default function Index() {
       {/* Reviews */}
       <section id="reviews" className="container py-16 md:py-20">
         <div className="text-center">
-          <h2 className="text-2xl md:text-3xl font-extrabold">Customer Reviews</h2>
+          <h2 className="text-2xl md:text-3xl font-extrabold">
+            Customer Reviews
+          </h2>
           <p className="mt-2 text-muted-foreground max-w-2xl mx-auto">
             Real stories from travelers who explored with us.
           </p>

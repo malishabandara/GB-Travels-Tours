@@ -57,7 +57,10 @@ export default function ReviewsCarousel() {
       >
         <CarouselContent>
           {items.map((r, i) => (
-            <CarouselItem key={r.id} className="md:basis-1/2 lg:basis-1/3 h-full">
+            <CarouselItem
+              key={r.id}
+              className="md:basis-1/2 lg:basis-1/3 h-full"
+            >
               <ReviewCard r={r} index={i} />
             </CarouselItem>
           ))}
