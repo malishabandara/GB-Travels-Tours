@@ -50,9 +50,15 @@ export default function TourCard({
         </div>
       </div>
       <div className="p-5">
-        <p className="text-sm text-muted-foreground min-h-10">
-          {p.description}
-        </p>
+        <ul className="text-sm text-muted-foreground list-disc pl-5 space-y-1">
+          {p.description
+            .split(/\r?\n/)
+            .map((s) => s.replace(/^\s*•\s*/, "").trim())
+            .filter(Boolean)
+            .map((line, idx) => (
+              <li key={idx}>{line}</li>
+            ))}
+        </ul>
         <div className="mt-5 flex items-center justify-between">
           <div className="flex items-center gap-3 text-muted-foreground sm:hidden">
             {p.vehicles.includes("Car") && (
