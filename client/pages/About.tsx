@@ -17,7 +17,7 @@ export default function About() {
             Discover places, savor moments
           </motion.h1>
           <p className="mt-4 text-lg text-muted-foreground">
-            GB Travels & Tours curates immersive journeys that blend iconic
+            GB Tours & travels curates immersive journeys that blend iconic
             sights with authentic local experiences. We design seamless, safe,
             and inspiring trips so you can explore with confidence and wonder.
           </p>
@@ -69,7 +69,7 @@ export default function About() {
               <div className="p-6 bg-card/60">
                 <h2 className="text-2xl font-semibold">Our Story</h2>
                 <p className="mt-3 text-muted-foreground">
-                  Born from a love of discovery, GB Travels & Tours began as a
+                  Born from a love of discovery, GB Tours & travels began as a
                   small team of explorers who wanted better travel — more
                   authentic, more thoughtful, and more human. Over the years
                   we've grown while keeping curiosity at our core.
