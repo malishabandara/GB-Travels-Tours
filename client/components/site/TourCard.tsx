@@ -16,7 +16,7 @@ export default function TourCard({
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.2 }}
       transition={{ duration: 0.5, delay: index * 0.06 }}
-      className="group relative overflow-hidden rounded-xl border border-border/60 bg-card/60 backdrop-blur hover:shadow-[0_0_0_1px_hsl(var(--primary))]"
+      className="group relative overflow-hidden rounded-xl border border-border/60 bg-card/60 backdrop-blur hover:shadow-[0_0_0_1px_hsl(var(--primary))] flex flex-col h-full"
     >
       <div className="relative aspect-[4/3] overflow-hidden">
         <img
@@ -49,11 +49,17 @@ export default function TourCard({
           </h3>
         </div>
       </div>
-      <div className="p-5">
-        <p className="text-sm text-muted-foreground min-h-10">
-          {p.description}
-        </p>
-        <div className="mt-5 flex items-center justify-between">
+      <div className="p-5 flex flex-col flex-1">
+        <ul className="text-sm text-muted-foreground list-disc pl-5 space-y-1">
+          {p.description
+            .split(/\r?\n/)
+            .map((s) => s.replace(/^\s*•\s*/, "").trim())
+            .filter(Boolean)
+            .map((line, idx) => (
+              <li key={idx}>{line}</li>
+            ))}
+        </ul>
+        <div className="mt-auto flex items-center justify-between">
           <div className="flex items-center gap-3 text-muted-foreground sm:hidden">
             {p.vehicles.includes("Car") && (
               <span className="inline-flex items-center gap-1 text-xs">

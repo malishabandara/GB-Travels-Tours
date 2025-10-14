@@ -148,12 +148,15 @@ export default function About() {
               <p className="mt-2 text-xs text-muted-foreground">
                 Sign up for travel tips and exclusive offers.
               </p>
-              <form className="mt-3 flex gap-2">
+              <form className="mt-3 flex flex-col sm:flex-row gap-2">
                 <input
-                  className="flex-1 rounded-md border border-border/40 bg-background px-3 py-2 text-sm"
+                  className="flex-1 w-full rounded-md border border-border/40 bg-background px-3 py-2 text-sm"
                   placeholder="Email address"
                 />
-                <button className="rounded-md bg-primary px-3 py-2 text-sm font-semibold text-primary-foreground">
+                <button
+                  type="submit"
+                  className="w-full sm:w-auto flex-shrink-0 rounded-md bg-primary px-3 py-2 text-sm font-semibold text-primary-foreground text-center"
+                >
                   Subscribe
                 </button>
               </form>
