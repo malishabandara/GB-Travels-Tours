@@ -138,13 +138,6 @@ export default function TourCard({
                     </ul>
                   </div>
                   <div className="flex items-center justify-between pt-2">
-                    <div className="text-sm text-muted-foreground">
-                      From{" "}
-                      <span className="font-semibold text-foreground">
-                        ${p.priceFrom}
-                      </span>{" "}
-                      total (vehicle & guide included)
-                    </div>
                     <Button asChild className="w-full md:w-auto">
                       <a href="tel:+94720532077">
                         Book Now <ArrowRight className="ml-2 h-4 w-4" />
