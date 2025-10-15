@@ -17,32 +17,6 @@ export interface TourPackage {
 const basePricePerDay = 80; // simple pricing logic
 
 export const packages: TourPackage[] = [
-  {
-    id: "honeymoon-7",
-    days: 7,
-    title: "Romantic Sri Lanka Escape",
-    vehicles: ["Car", "Van"],
-    subtitle:
-      "Special honeymoon resorts, candlelight dinners, private beach stays",
-    description: `• Handpicked romantic stays
-• Scenic hill views & misty mornings
-• Private beach time & sunsets
-• Candlelight dinners & surprises`,
-    moreDetails:
-      "Celebrate love with curated stays, couple-friendly experiences, and picture-perfect settings—from the hills to the sea.",
-    itinerary: [
-      "Day 1: Arrival at Bandaranaike International Airport → Private transfer to Negombo → Romantic beachfront dinner.",
-  "Day 2: Travel to Kandy via Pinnawala Elephant Orphanage → Visit Temple of the Tooth → Evening stroll around Kandy Lake.",
-  "Day 3: Scenic train journey from Kandy to Nuwara Eliya → Tea factory visit → Stay in colonial-style honeymoon hotel.",
-  "Day 4: Drive to Ella → Visit Ravana Falls and Nine Arches Bridge → Candle-lit dinner with mountain view.",
-  "Day 5: Travel to Yala → Private Jeep Safari at Yala National Park.",
-  "Day 6: Move to Bentota → Boat ride on Madu River → Romantic sunset beach walk.",
-  "Day 7: Leisure morning → Transfer to Airport for departure.",
-    ],
-    priceFrom: 7 * basePricePerDay + 150,
-    image: "./packages/hday.jpg",
-    gallery: ["./packages/h-1.jpg", "./packages/h-2.jpg", "./packages/h-3.jpg"],
-  },
   // Duration-based packages
   {
     id: "1-day",
@@ -298,6 +272,32 @@ export const packages: TourPackage[] = [
   },
 
   // Special Theme Packages
+  {
+    id: "honeymoon-7",
+    days: 7,
+    title: "Romantic Sri Lanka Escape",
+    vehicles: ["Car", "Van"],
+    subtitle:
+      "Special honeymoon resorts, candlelight dinners, private beach stays",
+    description: `• Handpicked romantic stays
+• Scenic hill views & misty mornings
+• Private beach time & sunsets
+• Candlelight dinners & surprises`,
+    moreDetails:
+      "Celebrate love with curated stays, couple-friendly experiences, and picture-perfect settings—from the hills to the sea.",
+    itinerary: [
+      "Day 1: Arrival at Bandaranaike International Airport → Private transfer to Negombo → Romantic beachfront dinner.",
+  "Day 2: Travel to Kandy via Pinnawala Elephant Orphanage → Visit Temple of the Tooth → Evening stroll around Kandy Lake.",
+  "Day 3: Scenic train journey from Kandy to Nuwara Eliya → Tea factory visit → Stay in colonial-style honeymoon hotel.",
+  "Day 4: Drive to Ella → Visit Ravana Falls and Nine Arches Bridge → Candle-lit dinner with mountain view.",
+  "Day 5: Travel to Yala → Private Jeep Safari at Yala National Park.",
+  "Day 6: Move to Bentota → Boat ride on Madu River → Romantic sunset beach walk.",
+  "Day 7: Leisure morning → Transfer to Airport for departure.",
+    ],
+    priceFrom: 7 * basePricePerDay + 150,
+    image: "./packages/hday.jpg",
+    gallery: ["./packages/h-1.jpg", "./packages/h-2.jpg", "./packages/h-3.jpg"],
+  },
   {
     id: "family-7",
     days: 7,
