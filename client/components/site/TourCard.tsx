@@ -139,7 +139,7 @@ export default function TourCard({
                     <div className="text-sm text-muted-foreground">
                       From <span className="font-semibold text-foreground">${p.priceFrom}</span> total (vehicle & guide included)
                     </div>
-                    <Button asChild>
+                    <Button asChild className="w-full sm:w-auto">
                       <a href="tel:+94720532077">
                         Book Now <ArrowRight className="ml-2 h-4 w-4" />
                       </a>
@@ -148,7 +148,7 @@ export default function TourCard({
                 </div>
               </DialogContent>
             </Dialog>
-            <Button asChild>
+            <Button asChild className="w-full sm:w-auto">
               <a href="tel:+94720532077">
                 Book Now <ArrowRight className="ml-2 h-4 w-4" />
               </a>
