@@ -137,7 +137,7 @@ export default function TourCard({
                   </div>
                   <div className="flex items-center justify-between pt-2">
                     <div className="text-sm text-muted-foreground">
-                      From <span className="font-semibold text-foreground">${p.priceFrom}</span> per day (vehicle & guide included)
+                      From <span className="font-semibold text-foreground">${p.priceFrom}</span> total (vehicle & guide included)
                     </div>
                     <Button asChild>
                       <a href="tel:+94720532077">
