@@ -24,11 +24,9 @@ export const packages: TourPackage[] = [
     title: "One-Day Wonders: Quick Sri Lankan Escape",
     vehicles: ["Car"],
     subtitle: "Short scenic day tour",
-    description: `• Pick-up from Airport or Hotel
-• Colombo or Negombo highlights in a day
+    description: `• Colombo or Negombo highlights in a day
 • Temples, markets & Dutch Canal
-• Optional boat ride or shopping
-• Drop back to hotel/airport`,
+• Optional boat ride or shopping`,
     moreDetails:
       "Designed for travelers with limited time who still want a taste of Sri Lanka. Enjoy a relaxed, picture-perfect day covering iconic spots with flexible pacing and comfortable transport.",
     itinerary: [
@@ -117,7 +115,7 @@ export const packages: TourPackage[] = [
     title: "The Classic Sri Lanka Round Tour",
     vehicles: ["Car", "Van"],
     subtitle:
-      "Airport → Sigiriya → Kandy → Nuwara Eliya → Ella → Yala → Mirissa/Galle",
+      "A perfect week exploring Sri Lanka’s iconic landmarks, misty hills, and golden beaches.",
     description: `• Sigiriya & Dambulla
 • Kandy city & cultural show
 • Nuwara Eliya tea country
@@ -143,7 +141,7 @@ export const packages: TourPackage[] = [
     days: 10,
     title: "The Heritage & Wild Adventure Trail",
     vehicles: ["Car", "Van"],
-    subtitle: "Anuradhapura, Polonnaruwa, Yala, South beaches",
+    subtitle: "From ancient cities to wild safaris and coastal bliss — experience Sri Lanka’s full diversity.",
     description: `• Anuradhapura & Polonnaruwa
 • Sigiriya & Dambulla
 • Kandy & hill country
@@ -203,7 +201,7 @@ export const packages: TourPackage[] = [
     days: 14,
     title: "The Ultimate Island Odyssey",
     vehicles: ["Car", "Van"],
-    subtitle: "Negombo → Trincomalee → Hill Country → Safari → South",
+    subtitle: "Two unforgettable weeks discovering Sri Lanka’s culture, coastlines, and hill country charm.",
     description: `• Negombo & East Coast (Trincomalee)
 • Polonnaruwa & Sigiriya
 • Kandy & hill country
