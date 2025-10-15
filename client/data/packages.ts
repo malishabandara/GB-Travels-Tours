@@ -40,8 +40,8 @@ export const packages: TourPackage[] = [
       "Drop off at hotel/airport",
     ],
     priceFrom: 1 * basePricePerDay,
-    image: "./tour/5.jpg",
-    gallery: ["./tour/5.jpg", "./boat/2.jpg", "./tour/3.jpg"],
+    image: "./packages/1day.jpg",
+    gallery: ["./packages/1-1.jpg", "./packages/1-2.jpg", "./packages/1-3.jpg"],
   },
   {
     id: "2-days",
