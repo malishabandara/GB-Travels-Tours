@@ -63,7 +63,7 @@ export const packages: TourPackage[] = [
       "Return transfer to Colombo/Airport",
     ],
     priceFrom: 2 * basePricePerDay,
-    image: "./packages/1day.jpg",
+    image: "./packages/2day.jpg",
     gallery: ["./packages/2-1.jpg", "./packages/2-2.jpg", "./packages/2-3.jpg"],
   },
   {
