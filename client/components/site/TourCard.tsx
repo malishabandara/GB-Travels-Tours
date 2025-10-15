@@ -65,8 +65,8 @@ export default function TourCard({
         </div>
       </div>
       <div className="p-5 flex flex-col flex-1">
-        <p className="text-xs mb-2 text-muted-foreground">{p.subtitle}</p>
-        <ul className="text-sm text-muted-foreground list-disc pl-5 space-y-1">
+        <p className="text-xs mb-3 text-muted-foreground">{p.subtitle}</p>
+        <ul className="text-sm text-muted-foreground list-disc pl-5 space-y-1 mb-4">
           {p.description
             .split(/\r?\n/)
             .map((s) => s.replace(/^\s*•\s*/, "").trim())
@@ -75,7 +75,7 @@ export default function TourCard({
               <li key={idx}>{line}</li>
             ))}
         </ul>
-        <div className="mt-auto flex items-center justify-between gap-2">
+        <div className="mt-auto pt-3 flex items-center justify-between gap-2">
           <div className="flex items-center gap-3 text-muted-foreground sm:hidden">
             {p.vehicles.includes("Car") && (
               <span className="inline-flex items-center gap-1 text-xs">
