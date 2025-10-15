@@ -75,7 +75,7 @@ export default function TourCard({
               <li key={idx}>{line}</li>
             ))}
         </ul>
-        <div className="mt-auto pt-3 flex items-center justify-between gap-2">
+        <div className="mt-auto pt-3 flex flex-col sm:flex-row sm:items-center gap-2">
           <div className="flex items-center gap-3 text-muted-foreground sm:hidden">
             {p.vehicles.includes("Car") && (
               <span className="inline-flex items-center gap-1 text-xs">
@@ -88,7 +88,7 @@ export default function TourCard({
               </span>
             )}
           </div>
-          <div className="ml-auto flex w-full flex-col sm:flex-row items-stretch sm:items-center gap-2">
+          <div className="w-full flex flex-col sm:flex-row items-stretch sm:items-center gap-2 sm:ml-auto">
             <Dialog>
               <DialogTrigger asChild>
                 <Button variant="secondary" className="w-full sm:w-auto">
