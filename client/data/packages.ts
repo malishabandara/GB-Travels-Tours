@@ -111,7 +111,7 @@ export const packages: TourPackage[] = [
     ],
     priceFrom: 5 * basePricePerDay + 60,
     image: "./packages/5day.jpg",
-    gallery: ["./packages/5-1.jpg", "./packages/5-2.jpg", "./packages/5-3.jpg"],
+    gallery: ["./packages/4-2.jpg", "./packages/4-1.jpg", "./packages/2-1.jpg"],
   },
   {
     id: "7-days",
