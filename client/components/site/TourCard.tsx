@@ -114,7 +114,11 @@ export default function TourCard({
                 </DialogHeader>
                 <div className="space-y-4">
                   <div className="relative">
-                    <Carousel className="w-full" opts={{ loop: true }} setApi={setApi}>
+                    <Carousel
+                      className="w-full"
+                      opts={{ loop: true }}
+                      setApi={setApi}
+                    >
                       <CarouselContent>
                         {p.gallery.map((src, i) => (
                           <CarouselItem key={i} className="md:basis-1/2">
