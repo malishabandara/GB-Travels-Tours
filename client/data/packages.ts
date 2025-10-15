@@ -21,7 +21,7 @@ export const packages: TourPackage[] = [
   {
     id: "1-day",
     days: 1,
-    title: "🌅 One-Day Wonders: Quick Sri Lankan Escape",
+    title: "One-Day Wonders: Quick Sri Lankan Escape",
     vehicles: ["Car"],
     subtitle: "Short scenic day tour",
     description: `• Pick-up from Airport or Hotel
@@ -46,7 +46,7 @@ export const packages: TourPackage[] = [
   {
     id: "2-days",
     days: 2,
-    title: "🏯 Mini Getaway: Culture & Nature Duo",
+    title: "Mini Getaway: Culture & Nature Duo",
     vehicles: ["Car"],
     subtitle: "Mix of heritage & greenery",
     description: `• Day 1: Kandy city tour (Temple of the Tooth)
@@ -63,13 +63,13 @@ export const packages: TourPackage[] = [
       "Return transfer to Colombo/Airport",
     ],
     priceFrom: 2 * basePricePerDay,
-    image: "./tour/15.jpg",
-    gallery: ["./tour/15.jpg", "./tour/14.jpg", "./tour/16.jpg"],
+    image: "./packages/1day.jpg",
+    gallery: ["./packages/2-1.jpg", "./packages/2-2.jpg", "./packages/2-3.jpg"],
   },
   {
     id: "4-days",
     days: 4,
-    title: "🌄 Hill Country Explorer",
+    title: "Hill Country Explorer",
     vehicles: ["Car"],
     subtitle: "Tea estates, waterfalls, relaxation",
     description: `• Sigiriya & Dambulla cave temple
@@ -86,13 +86,13 @@ export const packages: TourPackage[] = [
       "Optional: Kitulgala stop for soft adventure",
     ],
     priceFrom: 4 * basePricePerDay + 60,
-    image: "./tour/20.jpg",
-    gallery: ["./tour/20.jpg", "./tour/21.jpg", "./tour/22.jpg"],
+    image: "./packages/4day.jpg",
+    gallery: ["./packages/4-1.jpg", "./packages/4-2.jpg", "./packages/4-3.jpg"],
   },
   {
     id: "5-days",
     days: 5,
-    title: "🏖️ Highlights of Sri Lanka: 5-Day Discovery",
+    title: "Highlights of Sri Lanka: 5-Day Discovery",
     vehicles: ["Car", "Van"],
     subtitle: "Balanced culture & adventure",
     description: `• Sigiriya & Dambulla
@@ -110,13 +110,13 @@ export const packages: TourPackage[] = [
       "Day 5: Optional Yala Safari → South/Colombo",
     ],
     priceFrom: 5 * basePricePerDay + 60,
-    image: "./rafting/6.jpg",
-    gallery: ["./rafting/4.jpg", "./tour/18.jpg", "./tour/19.jpg"],
+    image: "./packages/5day.jpg",
+    gallery: ["./packages/5-1.jpg", "./packages/5-2.jpg", "./packages/5-3.jpg"],
   },
   {
     id: "7-days",
     days: 7,
-    title: "🐘 The Classic Sri Lanka Round Tour",
+    title: "The Classic Sri Lanka Round Tour",
     vehicles: ["Car", "Van"],
     subtitle:
       "Airport → Sigiriya → Kandy → Nuwara Eliya → Ella → Yala → Mirissa/Galle",
@@ -137,13 +137,13 @@ export const packages: TourPackage[] = [
       "Mirissa/Weligama/Galle beach time",
     ],
     priceFrom: 7 * basePricePerDay + 120,
-    image: "./rafting/4.jpg",
-    gallery: ["./tour/69.jpg", "./tour/70.jpg", "./tour/71.jpg"],
+    image: "./packages/7day.jpg",
+    gallery: ["./packages/7-1.jpg", "./packages/7-2.jpg", "./packages/7-3.jpg"],
   },
   {
     id: "10-days",
     days: 10,
-    title: "🕌 The Heritage & Wild Adventure Trail",
+    title: "The Heritage & Wild Adventure Trail",
     vehicles: ["Car", "Van"],
     subtitle: "Anuradhapura, Polonnaruwa, Yala, South beaches",
     description: `• Anuradhapura & Polonnaruwa
@@ -163,13 +163,13 @@ export const packages: TourPackage[] = [
       "Mirissa/Weligama/Galle beaches",
     ],
     priceFrom: 10 * basePricePerDay + 120,
-    image: "./safari/4.jpg",
-    gallery: ["./safari/5.jpg", "./safari/6.jpg", "./tour/30.jpg"],
+    image: "./packages/10day.jpg",
+    gallery: ["./packages/10-1.jpg", "./packages/10-2.jpg", "./packages/10-3.jpg"],
   },
   {
     id: "12-days",
     days: 12,
-    title: "🌅 Cultural & Coastal Escape",
+    title: "Cultural & Coastal Escape",
     vehicles: ["Car", "Van"],
     subtitle: "Full island journey with heritage + beaches",
     description: `• North Central heritage cities
@@ -188,13 +188,13 @@ export const packages: TourPackage[] = [
       "Mirissa/Galle/Bentota beaches",
     ],
     priceFrom: 12 * basePricePerDay + 120,
-    image: "./tour/13.jpg",
-    gallery: ["./tour/13.jpg", "./tour/24.jpg", "./tour/25.jpg"],
+    image: "./packages/12day.jpg",
+    gallery: ["./packages/12-1.jpg", "./packages/12-2.jpg", "./packages/12-3.jpg"],
   },
   {
     id: "14-days",
     days: 14,
-    title: "🛕 The Ultimate Island Odyssey",
+    title: "The Ultimate Island Odyssey",
     vehicles: ["Car", "Van"],
     subtitle: "Negombo → Trincomalee → Hill Country → Safari → South",
     description: `• Negombo & East Coast (Trincomalee)
@@ -214,13 +214,13 @@ export const packages: TourPackage[] = [
       "Galle and Bentota",
     ],
     priceFrom: 14 * basePricePerDay + 120,
-    image: "./tour/2.jpg",
-    gallery: ["./tour/21.jpg", "./tour/22.jpg", "./tour/23.jpg"],
+    image: "./packages/14day.jpg",
+    gallery: ["./packages/14-1.jpg", "./packages/14-2.jpg", "./packages/14-3.jpg"],
   },
   {
     id: "20-days",
     days: 20,
-    title: "🗺️ Grand Sri Lanka Expedition",
+    title: "Grand Sri Lanka Expedition",
     vehicles: ["Car", "Van"],
     subtitle: "Explore every region in-depth",
     description: `• North, East, Cultural Triangle
@@ -238,15 +238,15 @@ export const packages: TourPackage[] = [
       "Colombo city & shopping",
     ],
     priceFrom: 20 * basePricePerDay + 120,
-    image: "./tour/17.jpg",
-    gallery: ["./tour/24.jpg", "./tour/25.jpg", "./tour/26.jpg"],
+    image: "./packages/20day.jpg",
+    gallery: ["./packages/20-1.jpg", "./packages/20-2.jpg", "./packages/20-3.jpg"],
   },
 
   // Special Theme Packages
   {
     id: "honeymoon-7",
     days: 7,
-    title: "💖 Romantic Sri Lanka Escape",
+    title: "Romantic Sri Lanka Escape",
     vehicles: ["Car", "Van"],
     subtitle:
       "Special honeymoon resorts, candlelight dinners, private beach stays",
@@ -264,13 +264,13 @@ export const packages: TourPackage[] = [
       "Sunset dinners & spa time",
     ],
     priceFrom: 7 * basePricePerDay + 150,
-    image: "./tour/40.jpg",
-    gallery: ["./tour/41.jpg", "./tour/42.jpeg", "./tour/43.jpg"],
+    image: "./packages/hday.jpg",
+    gallery: ["./packages/h-1.jpg", "./packages/h-2.jpg", "./packages/h-3.jpg"],
   },
   {
     id: "family-7",
     days: 7,
-    title: "👨‍👩‍👧‍👦 Sri Lanka Family Fun Adventure",
+    title: "Sri Lanka Family Fun Adventure",
     vehicles: ["Van"],
     subtitle: "Safe, family-friendly attractions, wildlife parks, beaches",
     description: `• Family rooms & easy pacing
@@ -293,7 +293,7 @@ export const packages: TourPackage[] = [
   {
     id: "cultural-10",
     days: 10,
-    title: "🛕 Ancient Wonders & Sacred Trails",
+    title: "Ancient Wonders & Sacred Trails",
     vehicles: ["Car", "Van"],
     subtitle: "Temples, ancient cities, cultural shows",
     description: `• Anuradhapura & Polonnaruwa
@@ -316,7 +316,7 @@ export const packages: TourPackage[] = [
   {
     id: "adventure-7",
     days: 7,
-    title: "🧗 Thrill of Lanka: Mountains to Waves",
+    title: "Thrill of Lanka: Mountains to Waves",
     vehicles: ["Car", "Van"],
     subtitle: "Hiking, white-water rafting, surfing, safaris",
     description: `• Hill hikes & viewpoints
@@ -339,7 +339,7 @@ export const packages: TourPackage[] = [
   {
     id: "wildlife-5",
     days: 5,
-    title: "🐅 Into the Wild: Safari Expedition",
+    title: "Into the Wild: Safari Expedition",
     vehicles: ["Car", "Van"],
     subtitle: "Yala, Wilpattu, Udawalawe, Minneriya safaris",
     description: `• Multiple park options
