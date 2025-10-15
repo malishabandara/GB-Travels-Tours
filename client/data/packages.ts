@@ -248,7 +248,8 @@ export const packages: TourPackage[] = [
     days: 7,
     title: "💖 Romantic Sri Lanka Escape",
     vehicles: ["Car", "Van"],
-    subtitle: "Special honeymoon resorts, candlelight dinners, private beach stays",
+    subtitle:
+      "Special honeymoon resorts, candlelight dinners, private beach stays",
     description: `• Handpicked romantic stays
 • Scenic hill views & misty mornings
 • Private beach time & sunsets

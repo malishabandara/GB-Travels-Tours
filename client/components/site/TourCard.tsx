@@ -125,7 +125,9 @@ export default function TourCard({
                   </div>
                   <div className="space-y-2">
                     <h4 className="font-semibold">About this package</h4>
-                    <p className="text-sm text-muted-foreground">{p.moreDetails}</p>
+                    <p className="text-sm text-muted-foreground">
+                      {p.moreDetails}
+                    </p>
                   </div>
                   <div className="space-y-2">
                     <h4 className="font-semibold">Itinerary Highlights</h4>
@@ -137,7 +139,11 @@ export default function TourCard({
                   </div>
                   <div className="flex items-center justify-between pt-2">
                     <div className="text-sm text-muted-foreground">
-                      From <span className="font-semibold text-foreground">${p.priceFrom}</span> total (vehicle & guide included)
+                      From{" "}
+                      <span className="font-semibold text-foreground">
+                        ${p.priceFrom}
+                      </span>{" "}
+                      total (vehicle & guide included)
                     </div>
                     <Button asChild className="w-full md:w-auto">
                       <a href="tel:+94720532077">
