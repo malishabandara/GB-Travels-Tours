@@ -48,10 +48,9 @@ export const packages: TourPackage[] = [
     title: "Mini Getaway: Culture & Nature Duo",
     vehicles: ["Car"],
     subtitle: "Mix of heritage & greenery",
-    description: `• Day 1: Kandy city tour (Temple of the Tooth)
+    description: `• Kandy city tour (Temple of the Tooth)
 • Scenic viewpoints & lake walk
-• Day 2: Pinnawala & Peradeniya Garden
-• Return to Colombo or Airport`,
+• Pinnawala & Peradeniya Garden`,
     moreDetails:
       "A perfect two-day mix of ancient heritage and soothing greenery. Discover Kandy’s charm, meet gentle giants at Pinnawala, and unwind amid lush botanical wonders.",
     itinerary: [
@@ -196,8 +195,8 @@ export const packages: TourPackage[] = [
   "Day 12: Colombo city tour → Departure.",
     ],
     priceFrom: 12 * basePricePerDay + 120,
-    image: "./packages/12day.jpg",
-    gallery: ["./packages/12-1.jpg", "./packages/12-2.jpg", "./packages/12-3.jpg"],
+    image: "./packages/7-2.jpg",
+    gallery: ["./packages/7-3.jpg", "./packages/4day.jpg", "./packages/10-3.jpg"],
   },
   {
     id: "14-days",
@@ -269,7 +268,7 @@ export const packages: TourPackage[] = [
     ],
     priceFrom: 20 * basePricePerDay + 120,
     image: "./packages/20day.jpg",
-    gallery: ["./packages/20-1.jpg", "./packages/20-2.jpg", "./packages/20-3.jpg"],
+    gallery: ["./packages/20-1.jpg", "./packages/2day.jpg", "./packages/7day.jpg"],
   },
 
   // Special Theme Packages
