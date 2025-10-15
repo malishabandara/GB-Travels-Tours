@@ -2,6 +2,7 @@ import { Car, BusFront, ArrowRight, Info } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import type { TourPackage } from "@/data/packages";
 import { motion } from "framer-motion";
+import { useEffect, useState } from "react";
 import {
   Dialog,
   DialogTrigger,
@@ -16,6 +17,7 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
+  type CarouselApi,
 } from "@/components/ui/carousel";
 
 export default function TourCard({
@@ -25,6 +27,14 @@ export default function TourCard({
   p: TourPackage;
   index: number;
 }) {
+  const [api, setApi] = useState<CarouselApi | null>(null);
+  useEffect(() => {
+    if (!api) return;
+    const id = window.setInterval(() => {
+      api.scrollNext();
+    }, 3000);
+    return () => window.clearInterval(id);
+  }, [api]);
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -95,7 +105,7 @@ export default function TourCard({
                   <Info className="mr-2 h-4 w-4" /> View More
                 </Button>
               </DialogTrigger>
-              <DialogContent className="max-w-3xl">
+              <DialogContent className="max-w-3xl max-h-[85vh] overflow-y-auto">
                 <DialogHeader>
                   <DialogTitle className="text-xl">{p.title}</DialogTitle>
                   <DialogDescription>
@@ -104,7 +114,11 @@ export default function TourCard({
                 </DialogHeader>
                 <div className="space-y-4">
                   <div className="relative">
-                    <Carousel className="w-full" opts={{ loop: true }}>
+                    <Carousel
+                      className="w-full"
+                      opts={{ loop: true }}
+                      setApi={setApi}
+                    >
                       <CarouselContent>
                         {p.gallery.map((src, i) => (
                           <CarouselItem key={i} className="md:basis-1/2">
