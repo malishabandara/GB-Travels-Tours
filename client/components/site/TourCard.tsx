@@ -91,7 +91,7 @@ export default function TourCard({
           <div className="ml-auto flex w-full flex-col sm:flex-row items-stretch sm:items-center gap-2">
             <Dialog>
               <DialogTrigger asChild>
-                <Button variant="secondary">
+                <Button variant="secondary" className="w-full sm:w-auto">
                   <Info className="mr-2 h-4 w-4" /> View More
                 </Button>
               </DialogTrigger>
