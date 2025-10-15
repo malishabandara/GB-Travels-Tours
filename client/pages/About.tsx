@@ -130,7 +130,7 @@ export default function About() {
 
             <div className="rounded-lg overflow-hidden border border-border/60">
               <img
-                src="./tour/2.jpg"
+                src="./tour/73.jpg"
                 alt="team"
                 className="w-full h-40 object-cover"
               />
