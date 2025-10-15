@@ -75,7 +75,7 @@ export default function TourCard({
               <li key={idx}>{line}</li>
             ))}
         </ul>
-        <div className="mt-auto pt-3 flex flex-col sm:flex-row sm:items-center gap-2">
+        <div className="mt-auto pt-3 flex flex-col md:flex-row md:items-center md:justify-between gap-2">
           <div className="flex items-center gap-3 text-muted-foreground sm:hidden">
             {p.vehicles.includes("Car") && (
               <span className="inline-flex items-center gap-1 text-xs">
@@ -88,10 +88,10 @@ export default function TourCard({
               </span>
             )}
           </div>
-          <div className="w-full flex flex-col sm:flex-row items-stretch sm:items-center gap-2 sm:ml-auto">
+          <div className="w-full flex flex-col md:flex-row items-stretch md:items-center gap-2 md:ml-auto">
             <Dialog>
               <DialogTrigger asChild>
-                <Button variant="secondary" className="w-full sm:w-auto">
+                <Button variant="secondary" className="w-full md:w-auto">
                   <Info className="mr-2 h-4 w-4" /> View More
                 </Button>
               </DialogTrigger>
@@ -139,7 +139,7 @@ export default function TourCard({
                     <div className="text-sm text-muted-foreground">
                       From <span className="font-semibold text-foreground">${p.priceFrom}</span> total (vehicle & guide included)
                     </div>
-                    <Button asChild className="w-full sm:w-auto">
+                    <Button asChild className="w-full md:w-auto">
                       <a href="tel:+94720532077">
                         Book Now <ArrowRight className="ml-2 h-4 w-4" />
                       </a>
@@ -148,7 +148,7 @@ export default function TourCard({
                 </div>
               </DialogContent>
             </Dialog>
-            <Button asChild className="w-full sm:w-auto">
+            <Button asChild className="w-full md:w-auto">
               <a href="tel:+94720532077">
                 Book Now <ArrowRight className="ml-2 h-4 w-4" />
               </a>
