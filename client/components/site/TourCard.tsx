@@ -88,7 +88,7 @@ export default function TourCard({
               </span>
             )}
           </div>
-          <div className="ml-auto flex items-center gap-2">
+          <div className="ml-auto flex w-full flex-col sm:flex-row items-stretch sm:items-center gap-2">
             <Dialog>
               <DialogTrigger asChild>
                 <Button variant="secondary">
