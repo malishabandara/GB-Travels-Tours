@@ -134,6 +134,19 @@ export default function Index() {
         </div>
       </section>
 
+      {/* Districts preview */}
+      <section id="districts" className="container py-16 md:py-20">
+        <div className="text-center">
+          <h2 className="text-2xl md:text-3xl font-extrabold">Districts We Tour</h2>
+          <p className="mt-2 text-muted-foreground max-w-2xl mx-auto">
+            Explore popular districts and discover the must-see places we cover in each region.
+          </p>
+        </div>
+        <div className="mt-8">
+          <DistrictsGrid />
+        </div>
+      </section>
+
       {/* Gallery preview */}
       <section
         id="gallery"
