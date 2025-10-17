@@ -18,7 +18,7 @@ export const districts: District[] = [
     places: [
       { name: "Sigiriya Rock Fortress", image: "./tour/34.jpg" },
       { name: "Dambulla Cave Temple", image: "./tour/14.jpg" },
-      { name: "Minneriya National Park", image: "./safari/7.jpg" }
+      { name: "Minneriya National Park", image: "./safari/7.jpg" },
     ],
   },
   {
@@ -28,7 +28,7 @@ export const districts: District[] = [
     places: [
       { name: "Temple of the Tooth", image: "./tour/12.jpg" },
       { name: "Kandy Lake & View Point", image: "./tour/16.jpg" },
-      { name: "Peradeniya Botanical Garden", image: "./tour/11.jpg" }
+      { name: "Peradeniya Botanical Garden", image: "./tour/11.jpg" },
     ],
   },
   {
@@ -38,7 +38,7 @@ export const districts: District[] = [
     places: [
       { name: "Gregory Lake", image: "./tour/18.jpg" },
       { name: "Tea Factory & Estates", image: "./tour/6.jpg" },
-      { name: "Ramboda Falls", image: "./tour/20.jpg" }
+      { name: "Ramboda Falls", image: "./tour/20.jpg" },
     ],
   },
   {
@@ -48,7 +48,7 @@ export const districts: District[] = [
     places: [
       { name: "Nine Arch Bridge", image: "./tour/32.jpg" },
       { name: "Little Adam’s Peak", image: "./tour/38.jpg" },
-      { name: "Ravana Falls", image: "./tour/39.jpg" }
+      { name: "Ravana Falls", image: "./tour/39.jpg" },
     ],
   },
   {
@@ -57,7 +57,7 @@ export const districts: District[] = [
     image: "./safari/10.jpg",
     places: [
       { name: "Yala National Park", image: "./safari/5.jpg" },
-      { name: "Bundala Bird Sanctuary", image: "./safari/9.jpg" }
+      { name: "Bundala Bird Sanctuary", image: "./safari/9.jpg" },
     ],
   },
   {
@@ -67,7 +67,7 @@ export const districts: District[] = [
     places: [
       { name: "Galle Fort", image: "./tour/70.jpg" },
       { name: "Unawatuna Beach", image: "./tour/69.jpg" },
-      { name: "Jungle Beach", image: "./tour/72.jpg" }
+      { name: "Jungle Beach", image: "./tour/72.jpg" },
     ],
   },
   {
@@ -77,7 +77,7 @@ export const districts: District[] = [
     places: [
       { name: "Galle Face Green", image: "./tour/1.jpg" },
       { name: "Gangaramaya Temple", image: "./tour/4.jpg" },
-      { name: "Independence Square", image: "./tour/5.jpg" }
+      { name: "Independence Square", image: "./tour/5.jpg" },
     ],
   },
   {
@@ -87,7 +87,7 @@ export const districts: District[] = [
     places: [
       { name: "Negombo Beach", image: "./tour/8.jpg" },
       { name: "Dutch Canal", image: "./boat/12.jpg" },
-      { name: "Fish Market", image: "./tour/9.jpg" }
+      { name: "Fish Market", image: "./tour/9.jpg" },
     ],
   },
 ];

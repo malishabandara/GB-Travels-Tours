@@ -5,7 +5,9 @@ export default function VehicleCategory() {
   return (
     <section id="vehicles" className="container py-12 md:py-16">
       <div className="text-center">
-        <h2 className="text-2xl md:text-3xl font-extrabold">Vehicle Categories</h2>
+        <h2 className="text-2xl md:text-3xl font-extrabold">
+          Vehicle Categories
+        </h2>
         <p className="mt-2 text-muted-foreground max-w-2xl mx-auto">
           Choose the right vehicle for your group — capacities shown below.
         </p>
@@ -31,7 +33,9 @@ export default function VehicleCategory() {
               </div>
               <div className="text-center">
                 <div className="text-sm font-medium">{v.name}</div>
-                <div className="text-xs text-muted-foreground">Facts: {v.capacityLabel}</div>
+                <div className="text-xs text-muted-foreground">
+                  Facts: {v.capacityLabel}
+                </div>
               </div>
             </motion.div>
           ))}

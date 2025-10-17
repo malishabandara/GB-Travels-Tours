@@ -41,7 +41,8 @@ export default function Packages() {
             Districts We Tour
           </motion.h2>
           <p className="mt-2 text-muted-foreground max-w-2xl mx-auto">
-            Explore popular districts and discover the must-see places we cover in each region.
+            Explore popular districts and discover the must-see places we cover
+            in each region.
           </p>
         </div>
         <DistrictsGrid />
