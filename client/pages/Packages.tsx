@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { packages } from "@/data/packages";
 import TourCard from "@/components/site/TourCard";
+import DistrictsGrid from "@/components/site/DistrictsGrid";
 
 export default function Packages() {
   return (
