@@ -148,6 +148,9 @@ export default function Index() {
         </div>
       </section>
 
+      {/* Vehicles preview */}
+      <VehicleCategory />
+
       {/* Gallery preview */}
       <section
         id="gallery"
