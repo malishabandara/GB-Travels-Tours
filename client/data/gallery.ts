@@ -13,29 +13,14 @@ export interface GalleryImage {
 
 export const galleryImages: GalleryImage[] = [
   {
-    src: "./tour/1.jpg",
-    alt: "Beautiful night view of Dubai city skyline with Burj Khalifa towering over illuminated roads and skyscrapers.",
-    category: "Tours",
-  },
-  {
     src: "./tour/2.jpeg",
     alt: "A stunning aerial view of a tropical Maldives beach with clear turquoise waters and resorts along the shore.",
-    category: "Tours",
-  },
-  {
-    src: "./tour/3.jpg",
-    alt: "Classic VW van parked on rocky terrain with mountains in Alegría, El Salvador.",
     category: "Tours",
   },
   {
     src: "./safari/1.jpg",
     alt: "A safari vehicle parked in the vast African savannah during sunset, ideal for adventure and travel themes.",
     category: "Safari",
-  },
-  {
-    src: "./tour/4.jpg",
-    alt: "A beautifully lit Chinese temple at night, adorned with red lanterns, showcasing traditional architecture and vibrant cultural design.",
-    category: "Tours",
   },
   {
     src: "./safari/2.jpg",
@@ -354,10 +339,6 @@ export const galleryImages: GalleryImage[] = [
     category: "Tours",
   },{
     src: "./tour/72.jpg",
-    alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
-    category: "Tours",
-  },{
-    src: "./tour/73.jpg",
     alt: "Stunning view of Hofburg Palace lit up during dusk in Vienna, Sri Lanka.",
     category: "Tours",
   },
