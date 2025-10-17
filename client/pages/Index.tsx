@@ -8,6 +8,8 @@ import TourCard from "@/components/site/TourCard";
 import { galleryImages } from "@/data/gallery";
 import { heroImages } from "@/data/hero";
 import ReviewsCarousel from "@/components/site/ReviewsCarousel";
+import DistrictsGrid from "@/components/site/DistrictsGrid";
+import VehicleCategory from "@/components/site/VehicleCategory";
 
 export default function Index() {
   const [exampleFromServer, setExampleFromServer] = useState("");
@@ -132,6 +134,25 @@ export default function Index() {
           </Button>
         </div>
       </section>
+
+      {/* Districts preview */}
+      <section id="districts" className="container py-16 md:py-20">
+        <div className="text-center">
+          <h2 className="text-2xl md:text-3xl font-extrabold">
+            Districts We Tour
+          </h2>
+          <p className="mt-2 text-muted-foreground max-w-2xl mx-auto">
+            Explore popular districts and discover the must-see places we cover
+            in each region.
+          </p>
+        </div>
+        <div className="mt-8">
+          <DistrictsGrid />
+        </div>
+      </section>
+
+      {/* Vehicles preview */}
+      <VehicleCategory />
 
       {/* Gallery preview */}
       <section
