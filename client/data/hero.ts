@@ -12,7 +12,7 @@ export const heroImages = [
     alt: "Golden desert dunes with travelers",
   },
   {
-    src: "./tour/1.jpg",
+    src: "./tour/69.jpg",
     alt: "Northern lights above a small church in Sri Lanka",
   },
 ];
