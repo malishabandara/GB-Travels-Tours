@@ -9,6 +9,7 @@ import { galleryImages } from "@/data/gallery";
 import { heroImages } from "@/data/hero";
 import ReviewsCarousel from "@/components/site/ReviewsCarousel";
 import DistrictsGrid from "@/components/site/DistrictsGrid";
+import VehicleCategory from "@/components/site/VehicleCategory";
 
 export default function Index() {
   const [exampleFromServer, setExampleFromServer] = useState("");
