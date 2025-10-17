@@ -31,7 +31,7 @@ export default function VehicleCategory() {
               </div>
               <div className="text-center">
                 <div className="text-sm font-medium">{v.name}</div>
-                <div className="text-xs text-muted-foreground">Seats: {v.capacityLabel}</div>
+                <div className="text-xs text-muted-foreground">Facts: {v.capacityLabel}</div>
               </div>
             </motion.div>
           ))}
