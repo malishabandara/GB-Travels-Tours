@@ -8,6 +8,7 @@ import TourCard from "@/components/site/TourCard";
 import { galleryImages } from "@/data/gallery";
 import { heroImages } from "@/data/hero";
 import ReviewsCarousel from "@/components/site/ReviewsCarousel";
+import DistrictsGrid from "@/components/site/DistrictsGrid";
 
 export default function Index() {
   const [exampleFromServer, setExampleFromServer] = useState("");
