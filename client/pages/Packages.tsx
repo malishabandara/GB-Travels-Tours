@@ -30,22 +30,6 @@ export default function Packages() {
           ))}
         </div>
 
-        <div className="mt-14 text-center">
-          <motion.h2
-            initial={{ opacity: 0, y: 10 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.2 }}
-            transition={{ duration: 0.5 }}
-            className="text-2xl md:text-3xl font-extrabold"
-          >
-            Districts We Tour
-          </motion.h2>
-          <p className="mt-2 text-muted-foreground max-w-2xl mx-auto">
-            Explore popular districts and discover the must-see places we cover
-            in each region.
-          </p>
-        </div>
-        <DistrictsGrid />
       </section>
     </main>
   );
