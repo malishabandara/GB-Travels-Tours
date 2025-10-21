@@ -29,7 +29,6 @@ export default function Packages() {
             <TourCard key={p.id} p={p} index={i} />
           ))}
         </div>
-
       </section>
     </main>
   );

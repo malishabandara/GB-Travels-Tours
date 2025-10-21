@@ -72,7 +72,9 @@ function deriveDayLabel(p: TourPackage, index: number) {
       else if (capWords.length) break;
       if (capWords.length === 2) break;
     }
-    const place = capWords.length ? capWords.join(" ") : rest.split(/[&.,]/)[0]!.trim();
+    const place = capWords.length
+      ? capWords.join(" ")
+      : rest.split(/[&.,]/)[0]!.trim();
     return place ? `Day ${day} - ${place}` : `Day ${day}`;
   }
   return `Day ${day}`;
@@ -96,7 +98,7 @@ export default function TourCard({
 
   const captions = useMemo(
     () => p.gallery.map((_, i) => deriveDayLabel(p, i)),
-    [p]
+    [p],
   );
 
   return (
