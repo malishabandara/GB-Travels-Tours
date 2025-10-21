@@ -8,7 +8,12 @@ import TourCard from "@/components/site/TourCard";
 import { galleryImages } from "@/data/gallery";
 import { heroImages } from "@/data/hero";
 import ReviewsCarousel from "@/components/site/ReviewsCarousel";
-import DistrictsGrid from "@/components/site/DistrictsGrid";
+import {
+  Accordion,
+  AccordionItem,
+  AccordionTrigger,
+  AccordionContent,
+} from "@/components/ui/accordion";
 import VehicleCategory from "@/components/site/VehicleCategory";
 
 export default function Index() {
@@ -135,22 +140,6 @@ export default function Index() {
         </div>
       </section>
 
-      {/* Districts preview */}
-      <section id="districts" className="container py-16 md:py-20">
-        <div className="text-center">
-          <h2 className="text-2xl md:text-3xl font-extrabold">
-            Districts We Tour
-          </h2>
-          <p className="mt-2 text-muted-foreground max-w-2xl mx-auto">
-            Explore popular districts and discover the must-see places we cover
-            in each region.
-          </p>
-        </div>
-        <div className="mt-8">
-          <DistrictsGrid />
-        </div>
-      </section>
-
       {/* Vehicles preview */}
       <VehicleCategory />
 
@@ -230,6 +219,72 @@ export default function Index() {
               <a href="tel:+94720532077">Get a Quote</a>
             </Button>
           </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section id="faq" className="container py-16 md:py-20">
+        <div className="text-center">
+          <h2 className="text-2xl md:text-3xl font-extrabold">
+            Frequently Asked Questions
+          </h2>
+          <p className="mt-2 text-muted-foreground max-w-2xl mx-auto">
+            Answers to common questions about bookings, payments and logistics.
+          </p>
+        </div>
+        <div className="mt-8 max-w-3xl mx-auto">
+          <Accordion type="single" collapsible defaultValue="q1">
+            <AccordionItem value="q1">
+              <AccordionTrigger>How do I book a package?</AccordionTrigger>
+              <AccordionContent>
+                Call us at{" "}
+                <a href="tel:+94720532077" className="text-primary">
+                  +94 720 532 077
+                </a>
+                , or use the "Book Now" button on any package to reserve your
+                dates. We confirm availability and final pricing before taking
+                payment.
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="q2">
+              <AccordionTrigger>
+                What payment methods do you accept?
+              </AccordionTrigger>
+              <AccordionContent>
+                We accept bank transfers and cash on arrival. For larger groups
+                or special arrangements we can provide secure payment
+                links—contact our office to set this up.
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="q3">
+              <AccordionTrigger>Can I customize an itinerary?</AccordionTrigger>
+              <AccordionContent>
+                Yes — most packages are fully customizable. Tell us your
+                interests, preferred pace and dates and we'll craft a tailored
+                plan with recommended hotels and activities.
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="q4">
+              <AccordionTrigger>
+                Do you provide airport pickup?
+              </AccordionTrigger>
+              <AccordionContent>
+                Yes — airport pickup and drop-off can be arranged on request.
+                Include your flight details when booking and we'll coordinate
+                the meet-and-greet.
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="q5">
+              <AccordionTrigger>
+                What is your cancellation policy?
+              </AccordionTrigger>
+              <AccordionContent>
+                Cancellation terms vary by package and time before travel. We
+                recommend contacting us as soon as possible; we'll outline
+                refunds or credit options based on the booking.
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
         </div>
       </section>
 
