@@ -8,7 +8,7 @@ import TourCard from "@/components/site/TourCard";
 import { galleryImages } from "@/data/gallery";
 import { heroImages } from "@/data/hero";
 import ReviewsCarousel from "@/components/site/ReviewsCarousel";
-import DistrictsGrid from "@/components/site/DistrictsGrid";
+import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/components/ui/accordion";
 import VehicleCategory from "@/components/site/VehicleCategory";
 
 export default function Index() {
