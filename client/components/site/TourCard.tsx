@@ -97,7 +97,7 @@ export default function TourCard({
   }, [api]);
 
   const captions = useMemo(
-    () => p.gallery.map((_, i) => deriveDayLabel(p, i)),
+    () => p.gallery.map((_, i) => p.galleryCaptions?.[i] ?? deriveDayLabel(p, i)),
     [p],
   );
 

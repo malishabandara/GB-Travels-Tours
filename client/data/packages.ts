@@ -12,6 +12,7 @@ export interface TourPackage {
   moreDetails: string; // Detailed description for modal
   itinerary: string[]; // Highlights/itinerary for modal
   gallery: string[]; // A few images for modal
+  galleryCaptions?: string[]; // Optional: text shown over each gallery image (same order as gallery)
 }
 
 const basePricePerDay = 80; // simple pricing logic
@@ -61,6 +62,11 @@ export const packages: TourPackage[] = [
     priceFrom: 2 * basePricePerDay,
     image: "./packages/2day.jpg",
     gallery: ["./packages/2-1.jpg", "./packages/2-2.jpg", "./packages/2-3.jpg"],
+    galleryCaptions: [
+      "Day 1 - Kandy",
+      "Day 2 - Pinnawala",
+      "Day 2 - Peradeniya Garden",
+    ],
   },
   {
     id: "4-days",
@@ -108,6 +114,11 @@ export const packages: TourPackage[] = [
     priceFrom: 5 * basePricePerDay + 60,
     image: "./packages/5day.jpg",
     gallery: ["./packages/4-2.jpg", "./packages/4-1.jpg", "./packages/2-1.jpg"],
+    galleryCaptions: [
+      "Day 1 - Sigiriya",
+      "Day 2 - Kandy",
+      "Day 3 - Nuwara Eliya",
+    ],
   },
   {
     id: "7-days",
