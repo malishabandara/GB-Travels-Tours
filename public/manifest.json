@@ -1,0 +1,25 @@
+{
+  "name": "GB Tours & Travels - Sri Lanka Tour Packages",
+  "short_name": "GB Tours & Travels",
+  "description": "Premium Sri Lanka tour packages, safaris, and travel services",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#D4AF37",
+  "icons": [
+    {
+      "src": "/logo.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    }
+  ],
+  "categories": ["travel", "tourism", "business"],
+  "lang": "en",
+  "dir": "ltr"
+}
