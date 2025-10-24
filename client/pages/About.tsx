@@ -60,7 +60,7 @@ export default function About() {
                     className="w-full h-44 object-cover"
                   />
                   <img
-                    src="./tour/4.jpg"
+                    src="./tour/8.jpg"
                     alt="safari"
                     className="w-full h-44 object-cover"
                   />
@@ -135,7 +135,7 @@ export default function About() {
 
               <div className="rounded-lg overflow-hidden border border-border/60">
                 <img
-                  src="./tour/73.jpg"
+                  src="./boat/5.jpg"
                   alt="team"
                   className="w-full h-40 object-cover"
                 />
