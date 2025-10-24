@@ -1,18 +1,18 @@
 export const heroImages = [
   {
     src: "./safari/9.jpg",
-    alt: "skyline at night with illuminated highways",
+    alt: "Sri Lanka wildlife safari adventure in national park - guided safari tour with professional drivers",
   },
   {
     src: "./safari/11.jpg",
-    alt: "Aerial view of tropical beach and turquoise water",
+    alt: "Beautiful Sri Lanka beach with turquoise waters - perfect for beach tours and relaxation packages",
   },
   {
     src: "./rafting/2.jpg",
-    alt: "Golden desert dunes with travelers",
+    alt: "Sri Lanka adventure tourism - white water rafting in Kitulgala with experienced guides",
   },
   {
     src: "./tour/69.jpg",
-    alt: "Northern lights above a small church in Sri Lanka",
+    alt: "Sri Lanka cultural heritage site with traditional architecture - UNESCO World Heritage tour",
   },
 ];

@@ -15,6 +15,8 @@ import {
   AccordionContent,
 } from "@/components/ui/accordion";
 import VehicleCategory from "@/components/site/VehicleCategory";
+import SEO, { seoConfigs } from "@/components/SEO";
+import StructuredData from "@/components/StructuredData";
 
 export default function Index() {
   const [exampleFromServer, setExampleFromServer] = useState("");
@@ -42,7 +44,10 @@ export default function Index() {
   }, []);
 
   return (
-    <main className="min-h-screen">
+    <>
+      <SEO {...seoConfigs.home} />
+      <StructuredData type="homepage" />
+      <main className="min-h-screen">
       {/* Hero */}
       <section className="relative min-h-[55vh] md:min-h-[65vh]">
         <div className="absolute inset-0">
@@ -63,7 +68,7 @@ export default function Index() {
               transition={{ duration: 0.6 }}
               className="font-extrabold text-4xl md:text-6xl leading-tight drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)]"
             >
-              GB Tours & Travels
+              Sri Lanka Tours & Travel Packages | GB Tours & Travels
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 10 }}
@@ -71,9 +76,7 @@ export default function Index() {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="mt-4 max-w-2xl text-lg md:text-xl text-white/90 drop-shadow-[0_2px_6px_rgba(0,0,0,0.5)]"
             >
-              From 1-day city escapes to 20-day grand adventures. Ride in
-              comfort with cars and vans. Modern, premium, and always
-              effortless.
+              Discover Sri Lanka with expert-guided tours, wildlife safaris, and cultural experiences. From 1-day Colombo city tours to 20-day grand adventures covering UNESCO World Heritage sites. Comfortable transport, licensed guides, and unforgettable memories.
             </motion.p>
             <motion.div
               initial={{ opacity: 0, y: 10 }}
@@ -92,13 +95,13 @@ export default function Index() {
             </motion.div>
             <div className="mt-8 flex flex-wrap items-center gap-4 text-sm text-white/85 drop-shadow-[0_2px_6px_rgba(0,0,0,0.4)]">
               <span className="inline-flex items-center gap-2">
-                <CheckCircle2 className="text-primary" /> Licensed guides
+                <CheckCircle2 className="text-primary" /> Licensed Sri Lanka tour guides
               </span>
               <span className="inline-flex items-center gap-2">
-                <CheckCircle2 className="text-primary" /> Comfortable vehicles
+                <CheckCircle2 className="text-primary" /> Comfortable safari vehicles
               </span>
               <span className="inline-flex items-center gap-2">
-                <CheckCircle2 className="text-primary" /> Flexible itineraries
+                <CheckCircle2 className="text-primary" /> Customizable Sri Lanka tour packages
               </span>
             </div>
           </div>
@@ -120,11 +123,10 @@ export default function Index() {
         <div className="flex items-end justify-between gap-4">
           <div>
             <h2 className="text-2xl md:text-3xl font-extrabold">
-              Popular Packages
+              Popular Sri Lanka Tour Packages
             </h2>
             <p className="mt-2 text-muted-foreground max-w-2xl">
-              Choose from durations that fit your schedule: 1 - 20 days. Cars
-              and vans available.
+              Choose from our curated Sri Lanka tour packages: 1-day city tours to 20-day comprehensive adventures. Includes Yala safari, Sigiriya rock fortress, Kandy cultural tours, and beach holidays. Professional guides and comfortable transport included.
             </p>
           </div>
         </div>
@@ -152,10 +154,10 @@ export default function Index() {
           <div className="flex items-end justify-between gap-4">
             <div>
               <h2 className="text-2xl md:text-3xl font-extrabold">
-                From Our Journeys
+                Sri Lanka Travel Gallery
               </h2>
               <p className="mt-2 text-muted-foreground">
-                A glimpse of places and moments we adore.
+                Discover the beauty of Sri Lanka through our travel photos: wildlife safaris, cultural heritage sites, pristine beaches, and mountain landscapes. Plan your perfect Sri Lanka adventure.
               </p>
             </div>
             <Button asChild variant="secondary">
@@ -191,10 +193,10 @@ export default function Index() {
       <section id="reviews" className="container py-16 md:py-20">
         <div className="text-center">
           <h2 className="text-2xl md:text-3xl font-extrabold">
-            Customer Reviews
+            Sri Lanka Tour Reviews
           </h2>
           <p className="mt-2 text-muted-foreground max-w-2xl mx-auto">
-            Real stories from travelers who explored with us.
+            Read authentic reviews from international travelers who experienced Sri Lanka with GB Tours & Travels. Discover why we're the top-rated Sri Lanka tour operator.
           </p>
         </div>
         <div className="mt-10">
@@ -209,10 +211,10 @@ export default function Index() {
           <div className="rounded-2xl border border-border/60 bg-secondary/30 p-6 md:p-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
             <div>
               <h3 className="text-xl md:text-2xl font-extrabold">
-                Ready to plan your journey?
+                Ready to explore Sri Lanka?
               </h3>
               <p className="mt-2 text-muted-foreground">
-                Tell us your dates and preferences—we'll craft the perfect trip.
+                Contact our Sri Lanka tour experts for a customized itinerary. Get instant quotes for Yala safari, cultural tours, beach holidays, and adventure activities.
               </p>
             </div>
             <Button asChild size="lg">
@@ -226,24 +228,22 @@ export default function Index() {
       <section id="faq" className="container py-16 md:py-20">
         <div className="text-center">
           <h2 className="text-2xl md:text-3xl font-extrabold">
-            Frequently Asked Questions
+            Sri Lanka Tour FAQ
           </h2>
           <p className="mt-2 text-muted-foreground max-w-2xl mx-auto">
-            Answers to common questions about bookings, payments and logistics.
+            Get answers to common questions about Sri Lanka tour packages, safari bookings, cultural tours, and travel logistics.
           </p>
         </div>
         <div className="mt-8 max-w-3xl mx-auto">
           <Accordion type="single" collapsible defaultValue="q1">
             <AccordionItem value="q1">
-              <AccordionTrigger>How do I book a package?</AccordionTrigger>
+              <AccordionTrigger>How do I book a Sri Lanka tour package?</AccordionTrigger>
               <AccordionContent>
-                Call us at{" "}
+                Contact our Sri Lanka tour experts at{" "}
                 <a href="tel:+94720532077" className="text-primary">
                   +94 720 532 077
                 </a>
-                , or use the "Book Now" button on any package to reserve your
-                dates. We confirm availability and final pricing before taking
-                payment.
+                or WhatsApp for instant booking. We specialize in Yala safari tours, cultural heritage tours, and beach holidays. Custom itineraries available for all Sri Lanka destinations.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="q2">
@@ -257,21 +257,17 @@ export default function Index() {
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="q3">
-              <AccordionTrigger>Can I customize an itinerary?</AccordionTrigger>
+              <AccordionTrigger>Can I customize my Sri Lanka tour itinerary?</AccordionTrigger>
               <AccordionContent>
-                Yes — most packages are fully customizable. Tell us your
-                interests, preferred pace and dates and we'll craft a tailored
-                plan with recommended hotels and activities.
+                Absolutely! We specialize in customized Sri Lanka tour packages. Tell us your interests in wildlife safaris, cultural heritage sites, beach destinations, or mountain adventures, and we'll create a personalized itinerary with recommended hotels and activities.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="q4">
               <AccordionTrigger>
-                Do you provide airport pickup?
+                Do you provide Colombo airport transfer service?
               </AccordionTrigger>
               <AccordionContent>
-                Yes — airport pickup and drop-off can be arranged on request.
-                Include your flight details when booking and we'll coordinate
-                the meet-and-greet.
+                Yes! We provide professional Colombo airport transfer services to all Sri Lanka destinations. Include your flight details when booking and we'll coordinate comfortable transport with meet-and-greet service to your hotel or tour starting point.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="q5">
@@ -290,5 +286,6 @@ export default function Index() {
 
       <p className="sr-only">{exampleFromServer}</p>
     </main>
+    </>
   );
 }

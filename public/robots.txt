@@ -1,3 +1,23 @@
 User-agent: *
 Allow: /
+
+# Optimize crawling for search engines
+Crawl-delay: 1
+
+# Block access to admin and sensitive areas
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /node_modules/
+
+# Allow access to important files
+Allow: /favicon.ico
+Allow: /robots.txt
+Allow: /sitemap.xml
+Allow: /logo.jpg
+
+# Sitemap location
 Sitemap: https://www.gbtourstravels.com/sitemap.xml
+
+# Additional sitemaps for images
+Sitemap: https://www.gbtourstravels.com/sitemap-images.xml
