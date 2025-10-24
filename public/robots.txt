@@ -18,6 +18,3 @@ Allow: /logo.jpg
 
 # Sitemap location
 Sitemap: https://www.gbtourstravels.com/sitemap.xml
-
-# Additional sitemaps for images
-Sitemap: https://www.gbtourstravels.com/sitemap-images.xml
