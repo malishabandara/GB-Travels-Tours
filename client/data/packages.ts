@@ -39,7 +39,15 @@ export const packages: TourPackage[] = [
     ],
     priceFrom: 1 * basePricePerDay,
     image: "./packages/1day.jpg",
-    gallery: ["./packages/1-1.jpg", "./packages/1-2.jpg", "./packages/1-3.jpg"],
+    gallery: ["./places/8.jpg", "./places/10.jpg", "./places/9.jpg", "./places/13.jpg", "./places/14.jpg", "./packages/14day.jpg"],
+    galleryCaptions: [
+      "Galle Face Green",
+      "Independence Square",
+      "Gangaramaya Temple",
+      "Dutch Canal",
+      "Fish Market",
+      "Boat Ride",
+    ],
   },
   {
     id: "2-days",
@@ -90,6 +98,11 @@ export const packages: TourPackage[] = [
     priceFrom: 4 * basePricePerDay + 60,
     image: "./packages/4day.jpg",
     gallery: ["./packages/4-1.jpg", "./packages/4-2.jpg", "./packages/4-3.jpg"],
+    galleryCaptions: [
+      "Day 1 - Kandy",
+      "Day 2 - Pinnawala",
+      "Day 2 - Peradeniya Garden",
+    ],
   },
   {
     id: "5-days",
@@ -146,6 +159,11 @@ export const packages: TourPackage[] = [
     priceFrom: 7 * basePricePerDay + 120,
     image: "./packages/7day.jpg",
     gallery: ["./packages/7-1.jpg", "./packages/7-2.jpg", "./packages/7-3.jpg"],
+    galleryCaptions: [
+      "Day 1 - Kandy",
+      "Day 2 - Pinnawala",
+      "Day 2 - Peradeniya Garden",
+    ],
   },
   {
     id: "10-days",
@@ -175,6 +193,11 @@ export const packages: TourPackage[] = [
     priceFrom: 10 * basePricePerDay + 120,
     image: "./packages/10day.jpg",
     gallery: ["./packages/10-1.jpg", "./packages/10-2.jpg", "./packages/10-3.jpg"],
+    galleryCaptions: [
+      "Day 1 - Kandy",
+      "Day 2 - Pinnawala",
+      "Day 2 - Peradeniya Garden",
+    ],
   },
   {
     id: "12-days",
@@ -206,6 +229,11 @@ export const packages: TourPackage[] = [
     priceFrom: 12 * basePricePerDay + 120,
     image: "./packages/7-2.jpg",
     gallery: ["./packages/7-3.jpg", "./packages/4day.jpg", "./packages/10-3.jpg"],
+    galleryCaptions: [
+      "Day 1 - Kandy",
+      "Day 2 - Pinnawala",
+      "Day 2 - Peradeniya Garden",
+    ],
   },
   {
     id: "14-days",
@@ -239,6 +267,11 @@ export const packages: TourPackage[] = [
     priceFrom: 14 * basePricePerDay + 120,
     image: "./packages/14day.jpg",
     gallery: ["./packages/14-1.jpg", "./packages/14-2.jpg", "./packages/14-3.jpg"],
+    galleryCaptions: [
+      "Day 1 - Kandy",
+      "Day 2 - Pinnawala",
+      "Day 2 - Peradeniya Garden",
+    ],
   },
   {
     id: "20-days",
@@ -278,6 +311,11 @@ export const packages: TourPackage[] = [
     priceFrom: 20 * basePricePerDay + 120,
     image: "./packages/20day.jpg",
     gallery: ["./packages/20-1.jpg", "./packages/2day.jpg", "./packages/7day.jpg"],
+    galleryCaptions: [
+      "Day 1 - Kandy",
+      "Day 2 - Pinnawala",
+      "Day 2 - Peradeniya Garden",
+    ],
   },
 
   // Special Theme Packages
@@ -306,6 +344,11 @@ export const packages: TourPackage[] = [
     priceFrom: 7 * basePricePerDay + 150,
     image: "./packages/hday.jpg",
     gallery: ["./packages/h-1.jpg", "./packages/h-2.jpg", "./packages/h-3.jpg"],
+    galleryCaptions: [
+      "Day 1 - Kandy",
+      "Day 2 - Pinnawala",
+      "Day 2 - Peradeniya Garden",
+    ],
   },
   {
     id: "family-7",
@@ -332,6 +375,11 @@ export const packages: TourPackage[] = [
     priceFrom: 7 * basePricePerDay + 100,
     image: "./tour/8.jpg",
     gallery: ["./tour/7.jpg", "./safari/7.jpg", "./boat/5.jpg"],
+    galleryCaptions: [
+      "Day 1 - Kandy",
+      "Day 2 - Pinnawala",
+      "Day 2 - Peradeniya Garden",
+    ],
   },
   {
     id: "cultural-10",
@@ -359,6 +407,11 @@ export const packages: TourPackage[] = [
     priceFrom: 10 * basePricePerDay + 120,
     image: "./tour/10.jpg",
     gallery: ["./tour/11.jpg", "./tour/12.jpg", "./tour/14.jpg"],
+    galleryCaptions: [
+      "Day 1 - Kandy",
+      "Day 2 - Pinnawala",
+      "Day 2 - Peradeniya Garden",
+    ],
   },
   {
     id: "adventure-7",
@@ -384,6 +437,11 @@ export const packages: TourPackage[] = [
     priceFrom: 7 * basePricePerDay + 150,
     image: "./rafting/5.jpg",
     gallery: ["./rafting/6.jpg", "./tour/33.jpg", "./tour/34.jpg"],
+    galleryCaptions: [
+      "Day 1 - Kandy",
+      "Day 2 - Pinnawala",
+      "Day 2 - Peradeniya Garden",
+    ],
   },
   {
     id: "wildlife-5",
@@ -408,5 +466,10 @@ export const packages: TourPackage[] = [
     priceFrom: 5 * basePricePerDay + 140,
     image: "./safari/5.jpg",
     gallery: ["./safari/6.jpg", "./safari/7.jpg", "./safari/8.jpg"],
+    galleryCaptions: [
+      "Day 1 - Kandy",
+      "Day 2 - Pinnawala",
+      "Day 2 - Peradeniya Garden",
+    ],
   },
 ];
