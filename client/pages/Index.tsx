@@ -68,8 +68,7 @@ export default function Index() {
                 transition={{ duration: 0.6 }}
                 className="font-extrabold text-4xl md:text-6xl leading-tight drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)]"
               >
-                🏆 Best Sri Lanka Tour Packages | #1 Travel Agency Tours &
-                Travels
+                Best Sri Lanka Tour Packages | #1 Travel Agency Tours & Travels
               </motion.h1>
               <motion.p
                 initial={{ opacity: 0, y: 10 }}
@@ -77,7 +76,7 @@ export default function Index() {
                 transition={{ duration: 0.6, delay: 0.1 }}
                 className="mt-4 max-w-2xl text-lg md:text-xl text-white/90 drop-shadow-[0_2px_6px_rgba(0,0,0,0.5)]"
               >
-                🎯 Premium Sri Lanka tour packages from $80/day! Experience Yala
+                Premium Sri Lanka tour packages from $80/day! Experience Yala
                 safari, Sigiriya rock fortress, Kandy cultural tours, whale
                 watching, and UNESCO World Heritage sites. Licensed Sri Lanka
                 tour guides, comfortable safari vehicles, and unforgettable
@@ -100,28 +99,20 @@ export default function Index() {
               </motion.div>
               <div className="mt-8 flex flex-wrap items-center gap-4 text-sm text-white/85 drop-shadow-[0_2px_6px_rgba(0,0,0,0.4)]">
                 <span className="inline-flex items-center gap-2">
-                  <CheckCircle2 className="text-primary" /> 🏆 Licensed Sri
-                  Lanka tour guides & wildlife experts
+                  <CheckCircle2 className="text-primary" /> Licensed Sri Lanka
+                  tour guides & wildlife experts
                 </span>
                 <span className="inline-flex items-center gap-2">
-                  <CheckCircle2 className="text-primary" /> 🚗 Comfortable
-                  safari vehicles & private transport
+                  <CheckCircle2 className="text-primary" /> Comfortable safari
+                  vehicles & private transport
                 </span>
                 <span className="inline-flex items-center gap-2">
-                  <CheckCircle2 className="text-primary" /> 🎯 Customizable Sri
+                  <CheckCircle2 className="text-primary" /> Customizable Sri
                   Lanka tour packages
                 </span>
                 <span className="inline-flex items-center gap-2">
-                  <CheckCircle2 className="text-primary" /> 🐘 Yala safari &
+                  <CheckCircle2 className="text-primary" /> Yala safari &
                   wildlife tours included
-                </span>
-                <span className="inline-flex items-center gap-2">
-                  <CheckCircle2 className="text-primary" /> 🏛️ UNESCO World
-                  Heritage sites tours
-                </span>
-                <span className="inline-flex items-center gap-2">
-                  <CheckCircle2 className="text-primary" /> 💰 Best price
-                  guarantee from $80/day
                 </span>
               </div>
             </div>
@@ -143,15 +134,14 @@ export default function Index() {
           <div className="flex items-end justify-between gap-4">
             <div>
               <h2 className="text-2xl md:text-3xl font-extrabold">
-                🏆 Popular Sri Lanka Tour Packages | Best Travel Deals
+                Popular Sri Lanka Tour Packages | Best Travel Deals
               </h2>
               <p className="mt-2 text-muted-foreground max-w-2xl">
-                🎯 Choose from our curated Sri Lanka tour packages: 1-day
-                Colombo city tours to 20-day comprehensive adventures. Includes
-                Yala safari, Sigiriya rock fortress, Kandy cultural tours,
-                UNESCO World Heritage sites, and beach holidays. Professional
-                Sri Lanka tour guides and comfortable transport included. Best
-                prices from $80/day!
+                Choose from our curated Sri Lanka tour packages: 1-day Colombo
+                city tours to 20-day comprehensive adventures. Includes Yala
+                safari, Sigiriya rock fortress, Kandy cultural tours, UNESCO
+                World Heritage sites, and beach holidays. Professional Sri Lanka
+                tour guides and comfortable transport included. Best prices!
               </p>
             </div>
           </div>
@@ -179,10 +169,10 @@ export default function Index() {
             <div className="flex items-end justify-between gap-4">
               <div>
                 <h2 className="text-2xl md:text-3xl font-extrabold">
-                  📸 Sri Lanka Travel Gallery | Wildlife Safari & Cultural Tours
+                  Sri Lanka Travel Gallery | Wildlife Safari & Cultural Tours
                 </h2>
                 <p className="mt-2 text-muted-foreground">
-                  🎯 Discover the beauty of Sri Lanka through our travel photos:
+                  Discover the beauty of Sri Lanka through our travel photos:
                   Yala safari wildlife, Sigiriya rock fortress, Kandy cultural
                   heritage sites, pristine beaches, and mountain landscapes.
                   Plan your perfect Sri Lanka adventure with GB Tours & Travels.
@@ -221,10 +211,10 @@ export default function Index() {
         <section id="reviews" className="container py-16 md:py-20">
           <div className="text-center">
             <h2 className="text-2xl md:text-3xl font-extrabold">
-              ⭐ Sri Lanka Tour Reviews | 5-Star Rated Travel Agency
+              Sri Lanka Tour Reviews | 5-Star Rated Travel Agency
             </h2>
             <p className="mt-2 text-muted-foreground max-w-2xl mx-auto">
-              🎯 Read authentic reviews from international travelers who
+              Read authentic reviews from international travelers who
               experienced Sri Lanka with GB Tours & Travels. Discover why we're
               the #1 top-rated Sri Lanka tour operator with 4.9/5 stars. Yala
               safari, Sigiriya tours, and cultural experiences that exceed
@@ -243,13 +233,13 @@ export default function Index() {
             <div className="rounded-2xl border border-border/60 bg-secondary/30 p-6 md:p-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
               <div>
                 <h3 className="text-xl md:text-2xl font-extrabold">
-                  🚀 Ready to explore Sri Lanka? Book Your Adventure Now!
+                  Ready to explore Sri Lanka? Book Your Adventure Now!
                 </h3>
                 <p className="mt-2 text-muted-foreground">
-                  🎯 Contact our Sri Lanka tour experts for a customized
-                  itinerary. Get instant quotes for Yala safari, Sigiriya rock
-                  fortress tours, Kandy cultural tours, whale watching, beach
-                  holidays, and adventure activities. Best prices guaranteed!
+                  Contact our Sri Lanka tour experts for a customized itinerary.
+                  Get instant quotes for Yala safari, Sigiriya rock fortress
+                  tours, Kandy cultural tours, whale watching, beach holidays,
+                  and adventure activities. Best prices guaranteed!
                 </p>
               </div>
               <Button asChild size="lg">
@@ -289,8 +279,7 @@ export default function Index() {
                   or WhatsApp for instant booking. We specialize in Yala safari
                   tours, Sigiriya rock fortress tours, Kandy cultural heritage
                   tours, whale watching, and beach holidays. Custom itineraries
-                  available for all Sri Lanka destinations. Best prices from
-                  $80/day!
+                  available for all Sri Lanka destinations. Best prices!
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="q2">
