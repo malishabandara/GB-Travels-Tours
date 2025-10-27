@@ -1,11 +1,16 @@
 {
-  "name": "GB Tours & Travels - Sri Lanka Tour Packages",
+  "name": "🏆 Best Sri Lanka Tour Packages 2024 | GB Tours & Travels | #1 Travel Agency",
   "short_name": "GB Tours & Travels",
-  "description": "Premium Sri Lanka tour packages, safaris, and travel services",
+  "description": "🏆 #1 Sri Lanka tour operator! Premium tour packages from $80/day. Yala safari, Sigiriya, Kandy, whale watching, cultural tours. Licensed guides, comfortable transport. Book now for 2024!",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#D4AF37",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["travel", "tourism", "business", "lifestyle", "entertainment"],
   "icons": [
     {
       "src": "/logo.png",
@@ -19,7 +24,48 @@
       "type": "image/x-icon"
     }
   ],
-  "categories": ["travel", "tourism", "business"],
-  "lang": "en",
-  "dir": "ltr"
+  "screenshots": [
+    {
+      "src": "/packages/7day.jpg",
+      "sizes": "1280x720",
+      "type": "image/jpeg",
+      "form_factor": "wide",
+      "label": "Sri Lanka 7-Day Tour Package"
+    },
+    {
+      "src": "/packages/14day.jpg",
+      "sizes": "1280x720",
+      "type": "image/jpeg",
+      "form_factor": "wide",
+      "label": "Sri Lanka 14-Day Tour Package"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Sri Lanka Tour Packages",
+      "short_name": "Tour Packages",
+      "description": "Browse our Sri Lanka tour packages",
+      "url": "/packages",
+      "icons": [
+        {
+          "src": "/logo.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Contact Us",
+      "short_name": "Contact",
+      "description": "Get in touch with GB Tours & Travels",
+      "url": "/contact",
+      "icons": [
+        {
+          "src": "/logo.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
 }
