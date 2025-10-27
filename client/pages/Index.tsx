@@ -68,7 +68,7 @@ export default function Index() {
                 transition={{ duration: 0.6 }}
                 className="font-extrabold text-4xl md:text-6xl leading-tight drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)]"
               >
-                Best Sri Lanka Tour Packages | #1 Travel Agency Tours & Travels
+                Best Sri Lanka Tour Packages | GB Tours & Travels
               </motion.h1>
               <motion.p
                 initial={{ opacity: 0, y: 10 }}
@@ -76,11 +76,11 @@ export default function Index() {
                 transition={{ duration: 0.6, delay: 0.1 }}
                 className="mt-4 max-w-2xl text-lg md:text-xl text-white/90 drop-shadow-[0_2px_6px_rgba(0,0,0,0.5)]"
               >
-                Premium Sri Lanka tour packages! Experience Yala
-                safari, Sigiriya rock fortress, Kandy cultural tours, whale
-                watching, and UNESCO World Heritage sites. Licensed Sri Lanka
-                tour guides, comfortable safari vehicles, and unforgettable
-                memories. Book your Sri Lanka adventure now!
+                Premium Sri Lanka tour packages! Experience Yala safari,
+                Sigiriya rock fortress, Kandy cultural tours, whale watching,
+                and UNESCO World Heritage sites. Licensed Sri Lanka tour guides,
+                comfortable safari vehicles, and unforgettable memories. Book
+                your Sri Lanka adventure now!
               </motion.p>
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
