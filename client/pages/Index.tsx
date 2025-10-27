@@ -138,11 +138,7 @@ export default function Index() {
                 Popular Sri Lanka Tour Packages | Best Travel Deals
               </h2>
               <p className="mt-2 text-muted-foreground max-w-2xl">
-                Choose from our curated Sri Lanka tour packages: 1-day Colombo
-                city tours to 20-day comprehensive adventures. Includes Yala
-                safari, Sigiriya rock fortress, Kandy cultural tours, UNESCO
-                World Heritage sites, and beach holidays. Professional Sri Lanka
-                tour guides and comfortable transport included. Best prices!
+                Choose from our curated Sri Lanka tour packages!
               </p>
             </div>
           </div>
