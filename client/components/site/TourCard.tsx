@@ -148,7 +148,7 @@ export default function TourCard({
                                           {place.image && (
                                             <div className="flex-shrink-0 w-16 h-16 md:w-20 md:h-20 rounded-md overflow-hidden border border-border/60">
                                               <img
-                                                src={place.image}
+                                                src={`${place.image}?auto=compress&cs=tinysrgb&w=300`}
                                                 alt={place.name}
                                                 className="h-full w-full object-cover"
                                                 loading="lazy"
@@ -160,17 +160,15 @@ export default function TourCard({
                                           </span>
                                         </div>
                                       </AccordionTrigger>
-                                      {(place.description || place.image) && (
+                                      {place.description && (
                                         <AccordionContent className="px-4 pb-4">
-                                          {place.description && (
-                                            <p className="text-sm text-muted-foreground leading-relaxed mb-3">
-                                              {place.description}
-                                            </p>
-                                          )}
+                                          <p className="text-sm text-muted-foreground leading-relaxed mb-3">
+                                            {place.description}
+                                          </p>
                                           {place.image && (
                                             <div className="rounded-md overflow-hidden border border-border/60">
                                               <img
-                                                src={place.image}
+                                                src={`${place.image}?auto=compress&cs=tinysrgb&w=800`}
                                                 alt={place.name}
                                                 className="w-full h-auto object-cover"
                                                 loading="lazy"
@@ -189,47 +187,15 @@ export default function TourCard({
                       </div>
                     </div>
                   ) : (
-                    <div className="space-y-4">
-                      {p.gallery && p.gallery.length > 0 && (
-                        <div className="space-y-2">
-                          <h4 className="font-semibold text-lg">Gallery</h4>
-                          <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
-                            {p.gallery.map((src, i) => (
-                              <div
-                                key={i}
-                                className="relative aspect-video overflow-hidden rounded-md border border-border/60 bg-muted/20"
-                              >
-                                <img
-                                  src={`${src}?auto=compress&cs=tinysrgb&w=800`}
-                                  alt={
-                                    p.galleryCaptions?.[i] ||
-                                    `${p.title} ${i + 1}`
-                                  }
-                                  className="h-full w-full object-cover"
-                                  loading="lazy"
-                                />
-                                {p.galleryCaptions?.[i] && (
-                                  <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent p-2">
-                                    <span className="inline-flex items-center rounded-md bg-black/60 text-white text-xs px-2 py-1">
-                                      {p.galleryCaptions[i]}
-                                    </span>
-                                  </div>
-                                )}
-                              </div>
-                            ))}
-                          </div>
-                        </div>
-                      )}
-                      <div className="space-y-2">
-                        <h4 className="font-semibold text-lg">
-                          Itinerary Highlights
-                        </h4>
-                        <ul className="text-sm text-muted-foreground list-disc pl-5 space-y-1">
-                          {p.itinerary.map((item, i) => (
-                            <li key={i}>{item}</li>
-                          ))}
-                        </ul>
-                      </div>
+                    <div className="space-y-2">
+                      <h4 className="font-semibold text-lg">
+                        Itinerary Highlights
+                      </h4>
+                      <ul className="text-sm text-muted-foreground list-disc pl-5 space-y-1">
+                        {p.itinerary.map((item, i) => (
+                          <li key={i}>{item}</li>
+                        ))}
+                      </ul>
                     </div>
                   )}
 
