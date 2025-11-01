@@ -2,7 +2,6 @@ import { Car, BusFront, ArrowRight, Info } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import type { TourPackage } from "@/data/packages";
 import { motion } from "framer-motion";
-import { useEffect, useMemo, useState } from "react";
 import {
   Dialog,
   DialogTrigger,
@@ -12,73 +11,11 @@ import {
   DialogDescription,
 } from "@/components/ui/dialog";
 import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-  type CarouselApi,
-} from "@/components/ui/carousel";
-
-function deriveDayLabel(p: TourPackage, index: number) {
-  const day = index + 1;
-  const dayRegex = new RegExp(`\\bDay\\s*${day}\\b[\\s:—-]*(.*)`, "i");
-  const match = p.itinerary.find((line) => dayRegex.test(line));
-  if (match) {
-    const [, restRaw] = match.match(dayRegex) || [];
-    if (restRaw) {
-      let rest = restRaw.trim();
-      if (rest.includes("→")) rest = rest.split("→").pop()!.trim();
-      if (rest.includes("-")) rest = rest.split("-")[0]!.trim();
-      if (rest.includes("—")) rest = rest.split("—")[0]!.trim();
-      if (rest.includes(",")) rest = rest.split(",")[0]!.trim();
-      rest = rest
-        .replace(/^(Scenic\s+drive\s+to|Scenic\s+train\s+to)\s+/i, "")
-        .replace(/^(Drive|Travel|Move|Proceed|Transfer|Journey)\s+to\s+/i, "")
-        .replace(/^(Visit|Explore)\s+/i, "")
-        .replace(/^(Airport|Arrival)\b.*$/i, "")
-        .trim();
-      const firstPhrase = rest.split(/(&| and |\.|;|:)/i)[0]!.trim();
-      const words = firstPhrase.split(/\s+/).filter(Boolean);
-      const capWords = [] as string[];
-      for (let i = 0; i < words.length; i++) {
-        const w = words[i]!;
-        if (/^[A-Z][a-zA-Z']*/.test(w)) capWords.push(w);
-        else break;
-        if (capWords.length === 2) break; // allow two-word places like Nuwara Eliya
-      }
-      const place = capWords.length ? capWords.join(" ") : firstPhrase;
-      const label = place ? `Day ${day} - ${place}` : `Day ${day}`;
-      return label;
-    }
-  }
-  // Fallbacks when no explicit Day match
-  if (p.days >= day) {
-    const generic = p.itinerary[day - 1] || p.subtitle || p.title;
-    let rest = generic;
-    if (/Day\s*\d+/i.test(rest)) rest = rest.replace(/.*?:\s*/, "").trim();
-    if (rest.includes("→")) rest = rest.split("→").pop()!.trim();
-    if (rest.includes(",")) rest = rest.split(",")[0]!.trim();
-    rest = rest
-      .replace(/^(Scenic\s+drive\s+to|Scenic\s+train\s+to)\s+/i, "")
-      .replace(/^(Drive|Travel|Move|Proceed|Transfer|Journey)\s+to\s+/i, "")
-      .replace(/^(Visit|Explore)\s+/i, "")
-      .trim();
-    const words = rest.split(/\s+/).filter(Boolean);
-    const capWords = [] as string[];
-    for (let i = 0; i < words.length; i++) {
-      const w = words[i]!;
-      if (/^[A-Z][a-zA-Z']*/.test(w)) capWords.push(w);
-      else if (capWords.length) break;
-      if (capWords.length === 2) break;
-    }
-    const place = capWords.length
-      ? capWords.join(" ")
-      : rest.split(/[&.,]/)[0]!.trim();
-    return place ? `Day ${day} - ${place}` : `Day ${day}`;
-  }
-  return `Day ${day}`;
-}
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 
 export default function TourCard({
   p,
@@ -87,20 +24,6 @@ export default function TourCard({
   p: TourPackage;
   index: number;
 }) {
-  const [api, setApi] = useState<CarouselApi | null>(null);
-  useEffect(() => {
-    if (!api) return;
-    const id = window.setInterval(() => {
-      api.scrollNext();
-    }, 3000);
-    return () => window.clearInterval(id);
-  }, [api]);
-
-  const captions = useMemo(
-    () => p.gallery.map((_, i) => p.galleryCaptions?.[i] ?? deriveDayLabel(p, i)),
-    [p],
-  );
-
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -171,58 +94,112 @@ export default function TourCard({
                   <Info className="mr-2 h-4 w-4" /> View More
                 </Button>
               </DialogTrigger>
-              <DialogContent className="max-w-3xl max-h-[85vh] overflow-y-auto">
+              <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto">
                 <DialogHeader>
                   <DialogTitle className="text-xl">{p.title}</DialogTitle>
                   <DialogDescription>
                     {p.days} {p.days === 1 ? "Day" : "Days"} • {p.subtitle}
                   </DialogDescription>
                 </DialogHeader>
-                <div className="space-y-4">
-                  <div className="relative">
-                    <Carousel
-                      className="w-full"
-                      opts={{ loop: true }}
-                      setApi={setApi}
-                    >
-                      <CarouselContent>
-                        {p.gallery.map((src, i) => (
-                          <CarouselItem key={i} className="md:basis-1/2">
-                            <div className="relative aspect-video overflow-hidden rounded-md border border-border/60 bg-muted/20">
-                              <img
-                                src={`${src}?auto=compress&cs=tinysrgb&w=1600`}
-                                alt={`${p.title} ${i + 1}`}
-                                className="h-full w-full object-cover"
-                                loading="lazy"
-                              />
-                              <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent p-2">
-                                <span className="inline-flex items-center rounded-md bg-black/60 text-white text-xs px-2 py-1">
-                                  {captions[i]}
-                                </span>
-                              </div>
-                            </div>
-                          </CarouselItem>
-                        ))}
-                      </CarouselContent>
-                      <CarouselPrevious />
-                      <CarouselNext />
-                    </Carousel>
-                  </div>
+                <div className="space-y-6">
                   <div className="space-y-2">
-                    <h4 className="font-semibold">About this package</h4>
+                    <h4 className="font-semibold text-lg">
+                      About this package
+                    </h4>
                     <p className="text-sm text-muted-foreground">
                       {p.moreDetails}
                     </p>
                   </div>
-                  <div className="space-y-2">
-                    <h4 className="font-semibold">Itinerary Highlights</h4>
-                    <ul className="text-sm text-muted-foreground list-disc pl-5 space-y-1">
-                      {p.itinerary.map((item, i) => (
-                        <li key={i}>{item}</li>
-                      ))}
-                    </ul>
-                  </div>
-                  <div className="flex items-center justify-between pt-2">
+
+                  {p.dayItinerary && p.dayItinerary.length > 0 ? (
+                    <div className="space-y-4">
+                      <h4 className="font-semibold text-lg">
+                        Day-by-Day Itinerary
+                      </h4>
+                      <div className="space-y-6">
+                        {p.dayItinerary.map((day) => (
+                          <div
+                            key={day.day}
+                            className="border rounded-lg p-4 space-y-4"
+                          >
+                            <div className="flex items-center gap-2">
+                              <span className="flex-shrink-0 w-8 h-8 rounded-full bg-primary/10 text-primary font-semibold flex items-center justify-center text-sm">
+                                {day.day}
+                              </span>
+                              <h5 className="font-semibold text-base">
+                                {day.title}
+                              </h5>
+                            </div>
+
+                            {day.places && day.places.length > 0 && (
+                              <div className="ml-10">
+                                <Accordion
+                                  type="multiple"
+                                  className="space-y-2"
+                                >
+                                  {day.places.map((place, placeIndex) => (
+                                    <AccordionItem
+                                      key={placeIndex}
+                                      value={`day-${day.day}-place-${placeIndex}`}
+                                      className="border rounded-md px-0"
+                                    >
+                                      <AccordionTrigger className="px-4 py-3 hover:no-underline">
+                                        <div className="flex items-center gap-3 w-full">
+                                          {place.image && (
+                                            <div className="flex-shrink-0 w-16 h-16 md:w-20 md:h-20 rounded-md overflow-hidden border border-border/60">
+                                              <img
+                                                src={`${place.image}?auto=compress&cs=tinysrgb&w=300`}
+                                                alt={place.name}
+                                                className="h-full w-full object-cover"
+                                                loading="lazy"
+                                              />
+                                            </div>
+                                          )}
+                                          <span className="font-medium text-left flex-1">
+                                            {place.name}
+                                          </span>
+                                        </div>
+                                      </AccordionTrigger>
+                                      {place.description && (
+                                        <AccordionContent className="px-4 pb-4">
+                                          <p className="text-sm text-muted-foreground leading-relaxed mb-3">
+                                            {place.description}
+                                          </p>
+                                          {place.image && (
+                                            <div className="rounded-md overflow-hidden border border-border/60">
+                                              <img
+                                                src={`${place.image}?auto=compress&cs=tinysrgb&w=800`}
+                                                alt={place.name}
+                                                className="w-full h-auto object-cover"
+                                                loading="lazy"
+                                              />
+                                            </div>
+                                          )}
+                                        </AccordionContent>
+                                      )}
+                                    </AccordionItem>
+                                  ))}
+                                </Accordion>
+                              </div>
+                            )}
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  ) : (
+                    <div className="space-y-2">
+                      <h4 className="font-semibold text-lg">
+                        Itinerary Highlights
+                      </h4>
+                      <ul className="text-sm text-muted-foreground list-disc pl-5 space-y-1">
+                        {p.itinerary.map((item, i) => (
+                          <li key={i}>{item}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+
+                  <div className="flex items-center justify-between pt-2 border-t">
                     <Button asChild className="w-full md:flex-1">
                       <a href="tel:+94720532077">
                         Book Now <ArrowRight className="ml-2 h-4 w-4" />
