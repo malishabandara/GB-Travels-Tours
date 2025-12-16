@@ -99,17 +99,20 @@ export default function Footer() {
             Contact
           </h4>
           <div className="mt-3 space-y-2 text-sm">
-            <a
-              className="flex items-center gap-2 hover:text-primary"
-              href="#"
-            >
-              <Mail className="h-4 w-4" /> 03, Heraliyawala 60000
+            <a className="flex items-center gap-2 hover:text-primary" href="#">
+              <Mail className="h-4 w-4" /> 3246, Stage 3, Anuradhapura
             </a>
             <a
               className="flex items-center gap-2 hover:text-primary"
               href="tel:+94720532077"
             >
               <Phone className="h-4 w-4" /> +94 72 053 2077
+            </a>
+            <a
+              className="flex items-center gap-2 hover:text-primary"
+              href="tel:+94777243775"
+            >
+              <Phone className="h-4 w-4" /> +94 77 724 3775
             </a>
           </div>
           <div className="mt-4 flex items-center gap-6 text-muted-foreground">
